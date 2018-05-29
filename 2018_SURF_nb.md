@@ -1,7 +1,7 @@
-# TItle
+# SURF Notebook 2018
 
-### Author: James brown
-### Affiliation:
+### Author: Hannah Chu
+### Affiliation:University of Florida and John Jay College
 
 ## Projects title/descriptions
 
