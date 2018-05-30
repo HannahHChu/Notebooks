@@ -7,8 +7,8 @@
 #### Date end: 2018-08-04
 ## Projects & Descriptions
 
-# Table of contents (for 200 entries)
-* [Page 1:   2018-01-22](#id-section1). First Day, tasks, and potential summer projects 
+# Table of contents
+* [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects 
 * [Page 2:   2016-6-16](#id-section2). Title 3
 * [Page 3:  ](#id-section3).
 * [Page 4:  ](#id-section4).
