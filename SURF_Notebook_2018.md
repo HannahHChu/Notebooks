@@ -3,13 +3,14 @@
 ### Author: Hannah Chu
 #### Affiliation: University of Florida & John Jay College of Criminal Justice - CUNY
 
+
 #### Date started: 2018-05-29
 #### Date end: 2018-08-04
 ## Projects & Descriptions
 
 # Table of contents
-* [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects 
-* [Page 2:   2016-6-16](#id-section2). Title 3
+* [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects
+* [Page 2:   2018-05-30](#id-section2). Rhagoletis Viability Selection Project Overview
 * [Page 3:  ](#id-section3).
 * [Page 4:  ](#id-section4).
 * [Page 5:  ](#id-section5).
@@ -227,7 +228,7 @@ Shadowed Kylie for Rhagoletis rearing
 * Documenting in notebook and spreadsheet
 
 Discussed with Andrew a list of tasks for me to complete:
-1.	European cornborer rearing (training with Qinwen) and writing up protocols (using Rmarkdown)
+1. European cornborer rearing (training with Qinwen) and writing up protocols (using Rmarkdown)
 2. Contribute to the Rhagoletis project:
 * Shadow Kylie/Tatiana
 * Checking eclosions, deaths
@@ -247,9 +248,7 @@ Potential projects to discuss with Andrew and Dr. Hahn
 
 Papers to read:
 * Dopman, E. B., Bogdanowicz, S. M., & Harrison, R. G. (2004). Genetic Mapping of Sexual Isolation Between E and Z Pheromone Strains of the European Corn Borer (Ostrinia nubilalis). Retrieved from http://ase.tufts.edu/biology/labs/dopman/documents/pub2004GeneticMapping.pdf
-
 * Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REPRODUCTIVE ISOLATION BETWEEN NORTH AMERICAN PHEROMONE STRAINS OF THE EUROPEAN CORN BORER. Evolution, 64(4), 881–902. https://doi.org/10.1111/j.1558-5646.2009.00883.x
-
 * Leuenberger, P., Ganscha, S., Kahraman, A., Cappelletti, V., Boersema, P. J., von Mering, C., … Picotti, P. (2017). Cell-wide analysis of protein thermal unfolding reveals determinants of thermostability. Science (New York, N.Y.), 355(6327), eaai7825. https://doi.org/10.1126/science.aai7825
 
 * Levy, R. C., Kozak, G. M., Wadsworth, C. B., Coates, B. S., & Dopman, E. B. (2015). Explaining the sawtooth: latitudinal periodicity in a circadian gene correlates with shifts in generation number. Journal of Evolutionary Biology, 28(1), 40–53. https://doi.org/10.1111/jeb.12562
@@ -264,13 +263,39 @@ Papers to read:
 
 * Xie, X., Rull, J., Michel, A. P., Velez, S., Forbes, A. A., Lobo, N. F., … Feder, J. L. (2007). HAWTHORN-INFESTING POPULATIONS OF RHAGOLETIS POMONELLA IN MEXICO AND SPECIATION MODE PLURALITY. Evolution, 61(5), 1091–1105. https://doi.org/10.1111/j.1558-5646.2007.00091.x
 
-
-
 ------
 
 <div id='id-section2'/>
 
-### Page 2: 2016-06-16 title
+### Page 2: 2018-05-30 Rhagoletis Viability Selection Project Overview
+
+Rhagoletis - Biological rhythms
+
+Ways to Talk about the system:
+* pest management
+* target control
+* evolutionarily based
+
+ **Big Question for the project**
+* Is there greater viability selection for flies that have high metabolic rate? (could be better question)
+* What are the consequences of metabolic rate on adult life span?
+* how does metabolic rate —> survival 
+
+**Hypothesis:**
+* Flies with lower metabolic rate have a longer life span under overwintering conditions.
+  * Lower metabolic rate --> less energy used --> longer lifespan 
+*  Investing in high metabolic rate results in low adult survival
+
+**Prediction:**
+* Flies reared under favorable conditions will show less of a negative correlation between adult lifespan and metabolic rate. 
+
+**Calculating metabolic rate:**
+CO2 output / Δpurge unit time (hr)  * unit mass
+adult life span = death date - eclosion date
+
+Days 11 & 15
+
+Read: Kostal, Vladimir - Eco-physiological phases of insect diapause
 
 ------
 
