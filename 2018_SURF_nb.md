@@ -1,16 +1,14 @@
 # SURF Notebook 2018
 
 ### Author: Hannah Chu
-### Affiliation:University of Florida and John Jay College
+#### Affiliation: University of Florida & John Jay College of Criminal Justice - CUNY
 
-## Projects title/descriptions
-
-## Date started:
-## Date end:
-
+#### Date started: 2018-05-29
+#### Date end: 2018-08-04
+## Projects & Descriptions
 
 # Table of contents (for 200 entries)
-* [Page 1:   2018-01-22](#id-section1). test
+* [Page 1:   2018-01-22](#id-section1). First Day, tasks, and potential summer projects 
 * [Page 2:   2016-6-16](#id-section2). Title 3
 * [Page 3:  ](#id-section3).
 * [Page 4:  ](#id-section4).
@@ -217,10 +215,54 @@
 
 <div id='id-section1'/>
 
-### Page 1: 2018-01-22.  test
+### Page 1: 2018-01-22.  First Day, tasks, and potential summer projects
 
+Downloaded and learned to use:
+* Typora
+* Atom (for R markdown)
+* GitHub
 
-showing how to utilize the electronic online notebook
+Shadowed Kylie for Rhagoletis rearing
+* Transferring insects to Trikinetics setup
+* Documenting in notebook and spreadsheet
+
+Discussed with Andrew a list of tasks for me to complete:
+1.	European cornborer rearing (training with Qinwen) and writing up protocols (using Rmarkdown)
+2. Contribute to the Rhagoletis project:
+* Shadow Kylie/Tatiana
+* Checking eclosions, deaths
+* Transferring entrainment samples to free run
+* Documentation in master spreadsheet and in notebook
+3. Maintain personal notebook on GitHub
+* to do lists
+* read papers
+* experimental notes
+* seminar notes
+* etc.
+
+Potential projects to discuss with Andrew and Dr. Hahn
+* ECB: Timing of protein-protein interactions underlying seasonal changes in diapause
+* Proteome stability project: What are the timing of events for proteostasis?
+* Rhagoletis data mining: What are the consequences of diapause depth for overwinter survival?
+
+Papers to read:
+* Dopman, E. B., Bogdanowicz, S. M., & Harrison, R. G. (2004). Genetic Mapping of Sexual Isolation Between E and Z Pheromone Strains of the European Corn Borer (Ostrinia nubilalis). Retrieved from http://ase.tufts.edu/biology/labs/dopman/documents/pub2004GeneticMapping.pdf
+
+* Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REPRODUCTIVE ISOLATION BETWEEN NORTH AMERICAN PHEROMONE STRAINS OF THE EUROPEAN CORN BORER. Evolution, 64(4), 881–902. https://doi.org/10.1111/j.1558-5646.2009.00883.x
+
+* Leuenberger, P., Ganscha, S., Kahraman, A., Cappelletti, V., Boersema, P. J., von Mering, C., … Picotti, P. (2017). Cell-wide analysis of protein thermal unfolding reveals determinants of thermostability. Science (New York, N.Y.), 355(6327), eaai7825. https://doi.org/10.1126/science.aai7825
+
+* Levy, R. C., Kozak, G. M., Wadsworth, C. B., Coates, B. S., & Dopman, E. B. (2015). Explaining the sawtooth: latitudinal periodicity in a circadian gene correlates with shifts in generation number. Journal of Evolutionary Biology, 28(1), 40–53. https://doi.org/10.1111/jeb.12562
+
+* Feder, J. L., Berlocher, S. H., Roethele, J. B., Dambroski, H., Smith, J. J., Perry, W. L., … Aluja, M. (n.d.). Allopatric genetic origins for sympatric host-plant shifts and race formation in Rhagoletis. Retrieved from http://www.pnas.org/content/pnas/100/18/10314.full.pdf
+
+* Tauber, C. A., & Tauber, M. J. (1981). Insect seasonal cycles: Genetics and Evolution. Ann. Rev. EcoL Syst, 12, 281–308. Retrieved from https://www.annualreviews.org/doi/pdf/10.1146/annurev.es.12.110181.001433
+
+* Tauber, E., Zordan, M., Sandrelli, F., Pegoraro, M., Osterwalder, N., Breda, C., … Costa, R. (2007). Natural Selection Favors a Newly Derived timeless Allele in Drosophila melanogaster. J. Exp. Biol. B Mol. Dev. Evol. Dev. Biol. J. Biol. Chem. BMC Biol. Mar. Biotechnol. Biol. Bull. Proc. Natl. Acad. Sci. U.S.A. Evol. Dev, 316, 1895–1898. https://doi.org/10.1126/science.1141560
+
+* XIE, X., MICHEL, A. P., SCHWARZ, D., RULL, J., VELEZ, S., FORBES, A. A., … FEDER, J. L. (2008). Radiation and divergence in the Rhagoletis Pomonella species complex: inferences from DNA sequence data. Journal of Evolutionary Biology, 21(3), 900–913. https://doi.org/10.1111/j.1420-9101.2008.01507.x
+
+* Xie, X., Rull, J., Michel, A. P., Velez, S., Forbes, A. A., Lobo, N. F., … Feder, J. L. (2007). HAWTHORN-INFESTING POPULATIONS OF RHAGOLETIS POMONELLA IN MEXICO AND SPECIATION MODE PLURALITY. Evolution, 61(5), 1091–1105. https://doi.org/10.1111/j.1558-5646.2007.00091.x
 
 
 
