@@ -318,7 +318,7 @@ mermaid("
         ")
 
 ```
-! [Screen Shot 2018-05-31 at 12.42.15 PM](/Users/Pikachu/Desktop/Screen Shot 2018-05-31 at 12.42.15 PM.png)
+![workflow1](/Users/Pikachu/Desktop/workflow1.png)
 
 **Detailed workflow for calculating metabolic rate**
 How do we calculate metabolic rate?
@@ -349,7 +349,8 @@ mermaid("
   C --multiply by mass and divide over resp_day11--> D[Mass specific metabolic rate]
 ")
 ```
-! [Screen Shot 2018-05-31 at 12.42.03 PM](/Users/Pikachu/Desktop/Screen Shot 2018-05-31 at 12.42.03 PM.png)
+![workflow2](/Users/Pikachu/Desktop/workflow2.png)
+
 
 **Session Info**
 ```{r}
