@@ -7,12 +7,14 @@
 #### Date started: 2018-05-29
 #### Date end: 2018-08-04
 ## Projects & Descriptions
+* Summer Undergraduate Research at Florida (SURF) Program
+	*  Rhagoletis Viability Selection Project
 
 # Table of contents
 * [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects
 * [Page 2:   2018-05-30](#id-section2). Rhagoletis Viability Selection Project Overview
-* [Page 3:  ](#id-section3).
-* [Page 4:  ](#id-section4).
+* [Page 3: 2018-05-30 ](#id-section3).Kostal paper - critical reading notes
+* [Page 4: 2018-05-31 ](#id-section4).  R coding & ECB rearing; Dopman paper - introduction notes
 * [Page 5:  ](#id-section5).
 * [Page 6:  ](#id-section6).
 * [Page 7:  ](#id-section7).
@@ -230,16 +232,17 @@ Shadowed Kylie for Rhagoletis rearing
 Discussed with Andrew a list of tasks for me to complete:
 1. European cornborer rearing (training with Qinwen) and writing up protocols (using Rmarkdown)
 2. Contribute to the Rhagoletis project:
-* Shadow Kylie/Tatiana
-* Checking eclosions, deaths
-* Transferring entrainment samples to free run
-* Documentation in master spreadsheet and in notebook
+   * Shadow Kylie/Tatiana
+   * Checking eclosions, deaths
+   * Transferring entrainment samples to free run
+   * Documentation in master spreadsheet and in notebook
+
 3. Maintain personal notebook on GitHub
-* to do lists
-* read papers
-* experimental notes
-* seminar notes
-* etc.
+   * to do lists
+   * read papers
+   * experimental notes
+   * seminar notes
+   * etc.
 
 Potential projects to discuss with Andrew and Dr. Hahn
 * ECB: Timing of protein-protein interactions underlying seasonal changes in diapause
@@ -248,7 +251,9 @@ Potential projects to discuss with Andrew and Dr. Hahn
 
 Papers to read:
 * Dopman, E. B., Bogdanowicz, S. M., & Harrison, R. G. (2004). Genetic Mapping of Sexual Isolation Between E and Z Pheromone Strains of the European Corn Borer (Ostrinia nubilalis). Retrieved from http://ase.tufts.edu/biology/labs/dopman/documents/pub2004GeneticMapping.pdf
+
 * Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REPRODUCTIVE ISOLATION BETWEEN NORTH AMERICAN PHEROMONE STRAINS OF THE EUROPEAN CORN BORER. Evolution, 64(4), 881–902. https://doi.org/10.1111/j.1558-5646.2009.00883.x
+
 * Leuenberger, P., Ganscha, S., Kahraman, A., Cappelletti, V., Boersema, P. J., von Mering, C., … Picotti, P. (2017). Cell-wide analysis of protein thermal unfolding reveals determinants of thermostability. Science (New York, N.Y.), 355(6327), eaai7825. https://doi.org/10.1126/science.aai7825
 
 * Levy, R. C., Kozak, G. M., Wadsworth, C. B., Coates, B. S., & Dopman, E. B. (2015). Explaining the sawtooth: latitudinal periodicity in a circadian gene correlates with shifts in generation number. Journal of Evolutionary Biology, 28(1), 40–53. https://doi.org/10.1111/jeb.12562
@@ -293,21 +298,166 @@ Ways to Talk about the system:
 CO2 output / Δpurge unit time (hr)  * unit mass
 adult life span = death date - eclosion date
 
-Days 11 & 15
+#### Workflow
+**Library**
+```{r}
+#install.packages("DiagrammeR")
+library(DiagrammeR)
+```
+**Overall Workflow**
+```{r}
+mermaid("
+  graph TD
+  A[Master Data Sheet] --calculate--> B[Metabolic Rates CO2 production per hr per mass]
+  B --> T[Day 11]
+  B --> R[Day 15]
+  A -- calculate --> C[lifespan]
+  T --> E[Scatter plot showing relationship between life span and MR]
+  R --> E
+  C --> E
+        ")
 
-Read: Kostal, Vladimir - Eco-physiological phases of insect diapause
+```
+![Screen Shot 2018-05-31 at 12.42.15 PM](/Users/Pikachu/Desktop/Screen Shot 2018-05-31 at 12.42.15 PM.png)
+
+**Detailed workflow for calculating metabolic rate**
+How do we calculate metabolic rate?
+Metabolic Rate = CO2 production/ hours
+Mass Specific Metabolic Rate = CO2 production/hrs per mass
+
+* What are cohorts?
+	* Essentially handling replicats because we cannot sample all flies at once. For each cohort, there are two batches: (1) licor 7000 and (2) licor 6262
+	* To process more samples, measurements were spread across 2 respirometers(licors).
+	* Each licor has associated tape color indicated in tape column
+	* When purged (allowing pupae to breathe in a syringe under standardized air without CO2), there was a start and end time for beginning and end of purge for each tape samples (licor batch). 
+
+* What columns do we need from the master data sheet?
+	* mass_day10: mass on day 10 (mgs)
+	* purge_time_1: initial time for pupae to breathe in tube
+	* resp_time_1: time of respirometry sampling
+	* resp_day_11: respirometry on day 11
+
+**Problem** with purge_time_1: only start and stop times except for apple cohort 1 
+**Solution** create time sequence for each cohort from start to end
+
+```{r}
+mermaid("
+  graph TD
+  A[Master Data Sheet] --> B[Create time sequence for purge_time_1 in hrs minutes]
+  B--subtract from 24 and add to resp_time_1 --> C[Total hrs]
+  C --divide over resp_day11--> E[metabolic rate]
+  C --multiply by mass and divide over resp_day11--> D[Mass specific metabolic rate]
+")
+```
+![Screen Shot 2018-05-31 at 12.42.03 PM](/Users/Pikachu/Desktop/Screen Shot 2018-05-31 at 12.42.03 PM.png)
+
+**Session Info**
+```{r}
+sessionInfo()
+```
+
+
+**Today's Tasks**
+- [ ] Update OS
+- [x]  Update Google Calendar
+- [x] Shadowed Kylie for Rhagoletis rearing
+  - Transferring insects to Trikinetics setup
+  - Documenting in notebook and spreadsheet
+- [x] Read: Kostal, Vladimir - Eco-physiological phases of insect diapause
 
 ------
 
 <div id='id-section3'/>
 
-### Page 3:
+### Page 3: 2018-05-30 Kostal paper -  notes
+**Vocabulary**
+* dormancy - any state of suppressed development (developmental arrest), which is adaptive (ecologically or evolutionarily meaningful), and usually accompanied with metabolic suppression
+* quiescence - immediate response (without central regulation) to a decline of any limiting environmental factor(s) below the physiological thresholds with immediate resumption of the processes if the factor(s) rise above them.
+* diapause - a more profound, endogenously and centrally mediated interruption that routes the developmental programme away from direct morphogenesis into an alternative diapause programme of succession of physiological events
+	* the start of diapause usually precedes the advent of adverse conditions and the end of diapause may not coincide with the end of adversity
+* cryptobiosis -  an extreme depth of metabolic suppression --  ‘‘a peculiar state of biological organization when the organism shows no visible signs of life and when its metabolic activity becomes hardly measurable, or comes reversibly to a standstill"
+* Induction phase - occurs during genotype specific sensitive periods when cues from the environment are perceived and transduced into switching the ontogenetic pathway from direct development to diapause when the token stimuli reach some critical level (the response may be modified by other environmental factors).
+* Preparation phase - occurs where the phases of diapause induction and initiation are separated by a period of direct development during which the individual is covertly programmed for later expression of diapause (behavioral & physiological)
+* diapause intensity - relative duration of developmental arrest (diapause) at a given moment and under given environmental conditions
+*  Initiation phase - direct development (morphogenesis) ceases, usually followed by regulated metabolic suppression.
+	*   Mobile diapause stages may continue accepting food, building of energy reserves and seeking suitable microhabitat. Physiological preparations for the period of adversity may take place and intensity of diapause may increase.
+* Maintenance phase - endogenous developmental arrest persists while the environmental conditions are favourable for direct development. 
+	* Specific token stimuli may help to maintain diapause (prevent its termination). Metabolic rate is relatively low and constant. Unknown physiological process(es) lead to more or less gradual decrease of diapause intensity and increase of sensitivity to diapause terminating conditions.
+* Termination phase - specific changes in environmental conditions stimulate (accelerate or resume) the decrease of diapause intensity to its minimum level and thus synchronize individuals within a population. 
+	* By the end of the termination phase, a physiological state is reached in which direct development may overtly resume (if the conditions are permissive) or covert potentiality for direct development is restored but not realized (if the conditions are not permissive).
+* Post-diapause quiescence - exogenously imposed inhibition of development and metabolism, which follows the termination of diapause when conditions are not favourable for resumption of direct development.
+
+**Important quotations**
+1.  "two main difficulties hinder attempts to define useful terms: (a) missing overt markers for intrinsic changes and (b) attempts to arbitrarily subdivide those phenomena that essentially are continuous."
+2.  The correct characterization and description of the particular phase of diapause ... critical for the interpretation of physiological and molecular data
+3.  (1) pre-diapause (2) diapause and (3) post- diapause
+4. " egg diapause in the silkworm Bombyx mori and the pupal diapause in the flesh fly Sarcophaga bullata,  show that diapause induction leads to specific alterations in gene transcription, neuroendocrine milieu and metabolic pathways"
+	* the individual is destined for later entry into a developmental arrest
+5. (1) initiation, (2) maintenance and (3) termination.
+6. (unknown upstream factors - neurope- tides - hormones), or competency of target tissues (hormonal receptors - members of signalling cascades - cell-cycle regulators -, etc.), or both, ... the roles of other factors, such as heat shock proteins, have also received attention
+7. Examples in the literature either confirm that the initiation phase has a relatively high temperature optimum (Johnsen et al., 1997), or show that relatively higher temperatures during this phase result in developing a more intense diapause of longer duration and with higher survival rate after its termination
+8. Hodek (1983) suggested distin- guishing between ‘‘horotelic’’ (evolving at the standard rate) and ‘‘tachytelic’’ (evolving at a rate faster than the standard) ways of diapause termination.
+
+**Thoughts & Questions**
+1. two problems: (a) gap in knowledge in genes that correspond to phenotypic changes during diapause (b) attempting to use discrete variables to describe a continuous process
+2. Author presents solutions to the presented problems: (a) correctly characterize and describe phases of diapause to interpret when presented with molecular data
+3. Author divides development into three broad phases with smaller subphases
+4. examples already demonstrate that diapause inductions alter gene transcription...not gene transcription altering "decision" to diapause?
+5. sub phases of diapause...author claims 
+6. Difficult for physiologists to identify the moment diapause starts - so look to molecular level which points to regulatory factors such as these --> this makes sense since hormones regulate physiology and behavior...no way to determine on a physiological level?
+7. Wouldn't high temperatures start to increase mr again?  read  referenced paper for more understanding
+8. Does  ‘‘horotelic’’  ‘‘tachytelic’’ termination depend on mr?
+
+
+Reference: Kostal, V. (2006). Eco-physiological phases of insect diapause. Journal of Insect Physiology, 52, 113–127. https://doi.org/10.1016/j.jinsphys.2005.09.008
 
 ------
 
 <div id='id-section4'/>
 
-### Page 4:
+### Page 4: 2018-05-31 R coding & ECB rearing; Dopman paper - introduction notes
+
+* dplyr package
+	* calculated days 11 & 15 metabolic rate, mass specific metabolic rate, and eclosion
+	* data sheet incomplete for adult death dates -- lifespan needs missing information
+
+* ECB rearing - shadowed
+
+**Dopman paper**
+<u>Introduction</u>
+
+* biological species concept (BSC) - speciation caused by reproductive isolating barriers that prevent gene flow
+   * two methods to study:
+   	 (a) comparative approach - understand how isolating barriers evolve by measuring  strength of reproductive isolation for several barriers across a large group of taxa that vary in divergence time
+        	* used to estimate the sequential order of isolating-barrier evolution (i.e. which evolved first, second, etc.) or to identify biological traits associated with enhanced diversification
+        	* Problem: not so simple, many barriers contribute to speciation
+   	(b) "case study" approach - evaluates many different forms of reproductive isolation that could prevent a small number of closely related populations from reproduction 
+   		* how strength of isolation varies among all of the individual components
+
+* Current debate on  role of one or a few strong barriers to gene flow vs many weaker barriers 
+  * relates to the ease in which speciation evolves
+  * if barrier strength  increases with time, a barrier cannot have played a major historical role during speciation unless its contemporary strength is large
+
+* problem: relative contribution of the strength of individual components to total cumulative reproductive isolation
+  * barrier may disproportionately affect gene flow if it occurs at early life stages, before other barriers have had their effect
+
+* Quantified strength of reproductive isolation for:
+  * seasonal temporal isolation
+  * circadian temporal isolation
+  * male behavioral isolation
+  * female behavioral isolation, mechanical isolation
+  * gametic isolation (oviposition and fertilization)
+  * F1 hybrid inviability
+  * behavioral hybrid (male) infertility
+  * physiological hybrid infertility (oviposition and fertilization)
+  * F2 and BC inviability
+
+* Three goals:
+	(i) to confirm past data on reproductive barriers and formally quantify isolation strength
+	(ii) to evaluate new potential reproductive barriers
+	(iii) to address the three outstanding issues in speciation research that case studies are well suited to confront
+
+Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REPRODUCTIVE ISOLATION BETWEEN NORTH AMERICAN PHEROMONE STRAINS OF THE EUROPEAN CORN BORER. Evolution, 64(4), 881–902. https://doi.org/10.1111/j.1558-5646.2009.00883.x
 
 ------
 
