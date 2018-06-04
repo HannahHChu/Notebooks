@@ -15,9 +15,9 @@
 * [Page 2:   2018-05-30](#id-section2). Rhagoletis Viability Selection Project Overview
 * [Page 3: 2018-05-30 ](#id-section3).Kostal paper - critical reading notes
 * [Page 4: 2018-05-31 ](#id-section4).  R coding & ECB rearing; Dopman paper - introduction notes
-* [Page 5:  ](#id-section5).
-* [Page 6:  ](#id-section6).
-* [Page 7:  ](#id-section7).
+* [Page 5: 2018-06-01 ](#id-section5). More R coding & new project plan
+* [Page 6: 2018-06-03 ](#id-section6). G Matrix & ECB Exp. Plan
+* [Page 7: 2018-06-04 ](#id-section7). More G Matrix
 * [Page 8:  ](#id-section8).
 * [Page 9:  ](#id-section9).
 * [Page 10:  ](#id-section10).
@@ -429,9 +429,9 @@ Reference: Kostal, V. (2006). Eco-physiological phases of insect diapause. Journ
 
 * biological species concept (BSC) - speciation caused by reproductive isolating barriers that prevent gene flow
    * two methods to study:
-   	 (a) comparative approach - understand how isolating barriers evolve by measuring  strength of reproductive isolation for several barriers across a large group of taxa that vary in divergence time
+   	* (a) comparative approach - understand how isolating barriers evolve by measuring  strength of reproductive isolation for several barriers across a large group of taxa that vary in divergence time
         	* used to estimate the sequential order of isolating-barrier evolution (i.e. which evolved first, second, etc.) or to identify biological traits associated with enhanced diversification
-        	* Problem: not so simple, many barriers contribute to speciation
+			* Problem: not so simple, many barriers contribute to speciation
    	(b) "case study" approach - evaluates many different forms of reproductive isolation that could prevent a small number of closely related populations from reproduction 
    		* how strength of isolation varies among all of the individual components
 
@@ -464,19 +464,87 @@ Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REP
 
 <div id='id-section5'/>
 
-### Page 5:
+### Page 5: 2018-06-01 More R coding & new project plan
+**To Do List**
+- [X] Finish plotting predicted values
+	-scatter plot with lifespan on y-axis and MR on x-axis
+	-real data are points
+	-overlay with predicted values
+	-pred values displayed as line geom_line() - may need to specify data set in the function
+	-explain the patterns
+- [X]  Create an experimental plan for ECB system
+	- Want to measure biological rhythms for each strain
+		- sample size, conditions (FC vs diapause)
+		- food for adults
+		- replicates of cohorts (~5)
+- [X]  Go over research plan
+- [X]  Look into G Matrices
+- [X]  Shadow Tatiana for evening check
 
 ------
 
 <div id='id-section6'/>
 
-### Page 6:
+### Page 6: 2018-06-03 G Matrix & ECB Exp. Plan
+**G Matrix**
+Background:
+* Traits are determined by many factors: genetics and environmental
+* Proportion of the phenotypic variation due to additive genetic effects for a single trait is described by the heritability (h2) - ranges from 0 to 1
+* If the heritability is 1, then an offspring is exactly intermediate between the two parents
+* If heritability is 0, the offspring would be no more similar to its own parents than to a random individual from the population
+* Heritability describes how a trait will respond to selection
+* Traits with more genetic variation respond more rapidly to natural or artificial selection, and the response to selection is given by the breeder’s equation: 
+$$
+R = h^2S
+$$
+What is the G-matrix and why is it important?
+* Organisms have multiple traits and some are related at the level of the genome
+* G-matrix describes genetic correlations: several traits may be affected by the same set of genes, and selection on one of the traits would result in changes in the others. 
+*  G-matrix tells us how much genetic variation each trait has, as well as the extent to which the traits are genetically correlated with one another.
+* For two traits, the G-matrix looks like this:
+$$
+\mathbf{G} = \left[\begin{array}
+{rrr}
+G_{11} & G_{12} \\
+G_{12} & G_{22}
+\end{array}\right]
+$$
+where $$ G_{11} $$ and $$ G_{22} $$ are the additive genetic variances for trait one and trait two and $$ G_{12} $$ is the additive genetic covariance (covariance is similar to the correlation, except correlations are standardized to take values between -1 and +1)
+
+Multivariate breeder’s equation:
+$$
+\Delta {z} = G\beta
+$$
+
+Δz is a vector of changes in mean trait values, and β is a vector of selection gradients for the traits
+[Genetics & G matrix](http://www.bio.tamu.edu/index.php/faculty/jones/lab/gmatrix/whatisg/)
+
+**Experimental plan for ECB system**
+Goal:  To measure biological rhythms for each strain (UZ & BE)
+* Sample Size: cohorts of each strain in each condition (FC (a)  vs diapause (b))
+	* 5 cohorts of 50 = total 500 individuals
+	* 5 cohorts of 100 = total 1000 individuals
+	* 5 cohorts of 150 (is this feasible?) = total 1500 individuals
+	* 4 cohorts of 150 = total 1200 individuals 
+* Conditions:
+	* Favorable conditions: 16:8 L:D 24ºC or 26ºC (simulates day length for active reproductive months(May and June)) - keep in these conditions for ~60 days?
+	* Diapause conditions: 12:12 L:D 23ºC (46 days according to previous protocol)
+
+1) Cohort A & B in FC for 60 days (or however long it takes to become 5th instar/prepupation)
+2) Cohort A keep in FC for 46 days & Cohort B move to diapause for 46 days in Trikinetics
+3) Remove both cohorts back to FC
+
+Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REPRODUCTIVE ISOLATION BETWEEN NORTH AMERICAN PHEROMONE STRAINS OF THE EUROPEAN CORN BORER. Evolution, 64(4), 881–902. https://doi.org/10.1111/j.1558-5646.2009.00883.x
 
 ------
 
 <div id='id-section7'/>
 
-### Page 7:
+### Page 7: 2018-06-04 More G Matrix
+**To Do List**
+- [] Understand G-Matrix better
+
+
 
 ------
 
