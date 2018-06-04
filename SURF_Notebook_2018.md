@@ -543,6 +543,13 @@ Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REP
 ### Page 7: 2018-06-04 More G Matrix
 **To Do List**
 - [] Understand G-Matrix better
+- [] Rhagoletis viability 
+	- include pupae that did not emerge as adults in data (adult lifespan 0)
+	- Fill out missing info in freezer datasheet
+	- Create a dataset of pupae that have not eclosed (NB #002 pg 78-80)
+		- Host, cohort_day, well ID, ind ID, life spa
+		- Double check pupae have not eclosed 
+		- Link that data into master spreadsheet using R
 
 
 
