@@ -9,6 +9,7 @@
 ## Projects & Descriptions
 * Summer Undergraduate Research at Florida (SURF) Program
 	*  Rhagoletis Viability Selection Project
+	*  Proteostasis Project
 
 # Table of contents
 * [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects
@@ -17,7 +18,7 @@
 * [Page 4: 2018-05-31 ](#id-section4).  R coding & ECB rearing; Dopman paper - introduction notes
 * [Page 5: 2018-06-01 ](#id-section5). More R coding & new project plan
 * [Page 6: 2018-06-03 ](#id-section6). G Matrix & ECB Exp. Plan
-* [Page 7: 2018-06-04 ](#id-section7). More G Matrix
+* [Page 7: 2018-06-04 ](#id-section7). Survival Data Analysis
 * [Page 8:  ](#id-section8).
 * [Page 9:  ](#id-section9).
 * [Page 10:  ](#id-section10).
@@ -161,58 +162,6 @@
 * [Page 148:  ](#id-section148).
 * [Page 149:  ](#id-section149).
 * [Page 150:  ](#id-section150).
-* [Page 151:  ](#id-section151).
-* [Page 152:  ](#id-section152).
-* [Page 153:  ](#id-section153).
-* [Page 154:  ](#id-section154).
-* [Page 155:  ](#id-section155).
-* [Page 156:  ](#id-section156).
-* [Page 157:  ](#id-section157).
-* [Page 158:  ](#id-section158).
-* [Page 159:  ](#id-section159).
-* [Page 160:  ](#id-section160).
-* [Page 161:  ](#id-section161).
-* [Page 162:  ](#id-section162).
-* [Page 163:  ](#id-section163).
-* [Page 164:  ](#id-section164).
-* [Page 165:  ](#id-section165).
-* [Page 166:  ](#id-section166).
-* [Page 167:  ](#id-section167).
-* [Page 168:  ](#id-section168).
-* [Page 169:  ](#id-section169).
-* [Page 170:  ](#id-section170).
-* [Page 171:  ](#id-section171).
-* [Page 172:  ](#id-section172).
-* [Page 173:  ](#id-section173).
-* [Page 174:  ](#id-section174).
-* [Page 175:  ](#id-section175).
-* [Page 176:  ](#id-section176).
-* [Page 177:  ](#id-section177).
-* [Page 178:  ](#id-section178).
-* [Page 179:  ](#id-section179).
-* [Page 180:  ](#id-section180).
-* [Page 181:  ](#id-section181).
-* [Page 182:  ](#id-section182).
-* [Page 183:  ](#id-section183).
-* [Page 184:  ](#id-section184).
-* [Page 185:  ](#id-section185).
-* [Page 186:  ](#id-section186).
-* [Page 187:  ](#id-section187).
-* [Page 188:  ](#id-section188).
-* [Page 189:  ](#id-section189).
-* [Page 190:  ](#id-section190).
-* [Page 191:  ](#id-section191).
-* [Page 192:  ](#id-section192).
-* [Page 193:  ](#id-section193).
-* [Page 194:  ](#id-section194).
-* [Page 195:  ](#id-section195).
-* [Page 196:  ](#id-section196).
-* [Page 197:  ](#id-section197).
-* [Page 198:  ](#id-section198).
-* [Page 199:  ](#id-section199).
-* [Page 200:  ](#id-section200).
-
-
 
 ------
 
@@ -318,7 +267,7 @@ mermaid("
         ")
 
 ```
-![workflow1](/Users/Pikachu/Desktop/workflow1.png)
+![workflow1](https://github.com/HannahHChu/Notebooks/blob/master/Images/workflow1_rhagoletis.png)
 
 **Detailed workflow for calculating metabolic rate**
 How do we calculate metabolic rate?
@@ -349,7 +298,7 @@ mermaid("
   C --multiply by mass and divide over resp_day11--> D[Mass specific metabolic rate]
 ")
 ```
-![workflow2](/Users/Pikachu/Desktop/workflow2.png)
+![workflow2](https://github.com/HannahHChu/Notebooks/blob/master/Images/workflow2_rhagoletis.png)
 
 
 **Session Info**
@@ -540,16 +489,53 @@ Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REP
 
 <div id='id-section7'/>
 
-### Page 7: 2018-06-04 More G Matrix
+### Page 7: 2018-06-04 Survival Data Analysis
+#### Workflow for Merging Pupal Death Data with Lifespan Data
+```{r}
+mermaid("
+  graph TD
+  A[Master Data Sheet] --filter out the non-eclosers--> B[Subset of ind. who haven't eclosed]
+  A -- adult death date - eclosion date --> E[Lifespan Data]
+  C[Pupal Deaths Data Sheet]
+  B --merge based on host, cohort_day, well_id, uniqueID --> D[Merged Data Sheets]
+  C --merge based on host, cohort_day, well_id, uniqueID --> D
+  D --merge--> F[Final Data Sheet]
+  E --merge--> F[Final Data Sheet]
+  F --analyses using R --> G[negative binomial regression]
+  F --analyses using R package survival --> H[Survival analysis]
+  F --analyses using R--> I[COX regression]
+")
+```
+![workflowpdd](__)
+
+#### Survival Data Analysis
+[Regression Models for Survival Data](https://www.stat.ubc.ca/~rollin/teach/643w04/lec/node63.html)
+* Survival analysis,  failure time analysis, or time-to-event analysis methods used to:
+	*  examine the time to occurrence of an event (i.e. death, occurrence of morbidity, remission of disease, failure of a component, etc.)
+* Response (or dependent) variable, *y* = time to the occurrence of the event relative to initial time
+* If follow-up ends before the event occurence,  the subject's survival time has been *censored*
+	* We don't know the exact value of *y*, only that *y > t* (the actual duration of follow-up)
+	* With censored survival data, the response consists of two parts - 
+		* duration of follow-up (continuous)
+		* occurrence/non-occurence of the event (binary)
+	* The last variable is sometimes called the censoring variable because it indicates whether censoring occured for the subject
+
+[Survival Analysis Basics in R](http://www.sthda.com/english/wiki/survival-analysis-basics)
+[Cox Regression in R](http://www.sthda.com/english/wiki/cox-proportional-hazards-model)
+
+
+
+
 **To Do List**
-- [] Understand G-Matrix better
-- [] Rhagoletis viability 
+- [ ] Rhagoletis viability 
 	- include pupae that did not emerge as adults in data (adult lifespan 0)
 	- Fill out missing info in freezer datasheet
 	- Create a dataset of pupae that have not eclosed (NB #002 pg 78-80)
 		- Host, cohort_day, well ID, ind ID, life spa
 		- Double check pupae have not eclosed 
 		- Link that data into master spreadsheet using R
+- [X] Update storage sheet
+- [ ] Read Plata & Vitkup (2017) and Leuenberger, et. al. (2017)
 
 
 
@@ -557,7 +543,10 @@ Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REP
 
 <div id='id-section8'/>
 
-### Page 8:
+### Page 8: 2018-06-05
+
+**To Do List**
+- [ ] Read Plata & Vitkup (2017) and Leuenberger, et. al. (2017)
 
 ------
 
@@ -1412,301 +1401,3 @@ Reference: Dopman, E. B., Robbins, P. S., & Seaman, A. (2009). COMPONENTS OF REP
 ### Page 150:
 
 ------
-
-<div id='id-section151'/>
-
-### Page 151:
-
-------
-
-<div id='id-section152'/>
-
-### Page 152:
-
-------
-
-<div id='id-section153'/>
-
-### Page 153:
-
-------
-
-<div id='id-section154'/>
-
-### Page 154:
-
-------
-
-<div id='id-section155'/>
-
-### Page 155:
-
-------
-
-<div id='id-section156'/>
-
-### Page 156:
-
-------
-
-<div id='id-section157'/>
-
-### Page 157:
-
-------
-
-<div id='id-section158'/>
-
-### Page 158:
-
-------
-
-<div id='id-section159'/>
-
-### Page 159:
-
-------
-
-<div id='id-section160'/>
-
-### Page 160:
-
-------
-
-<div id='id-section161'/>
-
-### Page 161:
-
-------
-
-<div id='id-section162'/>
-
-### Page 162:
-
-------
-
-<div id='id-section163'/>
-
-### Page 163:
-
-------
-
-<div id='id-section164'/>
-
-### Page 164:
-
-------
-
-<div id='id-section165'/>
-
-### Page 165:
-
-------
-
-<div id='id-section166'/>
-
-### Page 166:
-
-------
-
-<div id='id-section167'/>
-
-### Page 167:
-
-------
-
-<div id='id-section168'/>
-
-### Page 168:
-
-------
-
-<div id='id-section169'/>
-
-### Page 169:
-
-------
-
-<div id='id-section170'/>
-
-### Page 170:
-
-------
-
-<div id='id-section171'/>
-
-### Page 171:
-
-------
-
-<div id='id-section172'/>
-
-### Page 172:
-
-------
-
-<div id='id-section173'/>
-
-### Page 173:
-
-------
-
-<div id='id-section174'/>
-
-### Page 174:
-
-------
-
-<div id='id-section175'/>
-
-### Page 175:
-
-------
-
-<div id='id-section176'/>
-
-### Page 176:
-
-------
-
-<div id='id-section177'/>
-
-### Page 177:
-
-------
-
-<div id='id-section178'/>
-
-### Page 178:
-
-------
-
-<div id='id-section179'/>
-
-### Page 179:
-
-------
-
-<div id='id-section180'/>
-
-### Page 180:
-
-------
-
-<div id='id-section181'/>
-
-### Page 181:
-
-------
-
-<div id='id-section182'/>
-
-### Page 182:
-
-------
-
-<div id='id-section183'/>
-
-### Page 183:
-
-------
-
-<div id='id-section184'/>
-
-### Page 184:
-
-------
-
-<div id='id-section185'/>
-
-### Page 185:
-
-------
-
-<div id='id-section186'/>
-
-### Page 186:
-
-------
-
-<div id='id-section187'/>
-
-### Page 187:
-
-------
-
-<div id='id-section188'/>
-
-### Page 188:
-
-------
-
-<div id='id-section189'/>
-
-### Page 189:
-
-------
-
-<div id='id-section190'/>
-
-### Page 190:
-
-------
-
-<div id='id-section191'/>
-
-### Page 191:
-
-------
-
-<div id='id-section192'/>
-
-### Page 192:
-
-------
-
-<div id='id-section193'/>
-
-### Page 193:
-
-------
-
-<div id='id-section194'/>
-
-### Page 194:
-
-------
-
-<div id='id-section195'/>
-
-### Page 195:
-
-------
-
-<div id='id-section196'/>
-
-### Page 196:
-
-------
-
-<div id='id-section197'/>
-    
-### Page 197:
-
-------
-
-<div id='id-section198'/>
-
-### Page 198:
-
-------
-
-<div id='id-section199'/>
-
-### Page 199:
-
-------
-
-<div id='id-section200'/>
-
-### Page 200:
