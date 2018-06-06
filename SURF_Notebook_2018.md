@@ -19,8 +19,8 @@
 * [Page 5: 2018-06-01 ](#id-section5). More R coding & new project plan
 * [Page 6: 2018-06-03 ](#id-section6). G Matrix & ECB Exp. Plan
 * [Page 7: 2018-06-04 ](#id-section7). Survival Data Analysis
-* [Page 8:  ](#id-section8).
-* [Page 9:  ](#id-section9).
+* [Page 8:  2018-06-05](#id-section8). Proteome Stability Programming
+* [Page 9: 2018-06-06 ](#id-section9).
 * [Page 10:  ](#id-section10).
 * [Page 11:  ](#id-section11).
 * [Page 12:  ](#id-section12).
@@ -506,7 +506,7 @@ mermaid("
   F --analyses using R--> I[COX regression]
 ")
 ```
-![workflowpdd](__)
+![workflowpdd](https://github.com/HannahHChu/Notebooks/blob/master/Images/workflow3pdd.png)
 
 #### Survival Data Analysis
 [Regression Models for Survival Data](https://www.stat.ubc.ca/~rollin/teach/643w04/lec/node63.html)
@@ -527,7 +527,7 @@ mermaid("
 
 
 **To Do List**
-- [ ] Rhagoletis viability 
+- [X] Rhagoletis viability 
 	- include pupae that did not emerge as adults in data (adult lifespan 0)
 	- Fill out missing info in freezer datasheet
 	- Create a dataset of pupae that have not eclosed (NB #002 pg 78-80)
@@ -543,10 +543,24 @@ mermaid("
 
 <div id='id-section8'/>
 
-### Page 8: 2018-06-05
+### Page 8: 2018-06-05 Proteome Stability Programming
 
 **To Do List**
-- [ ] Read Plata & Vitkup (2017) and Leuenberger, et. al. (2017)
+- [ ] Rhagoletis Viability Selection
+	- Fix R Chunks
+	- Knit (Update OS)
+	- Describe in terms of biology
+	- Remove mass for figures for neg. binomial regression
+	- Make figures prettier (add units [mL CO2/hr], larger font)
+- [ ] Proteome Stability - set up 4 programs on Wintherm Plus (with initial 5 min incubation pd):
+	- Ctmax slow ramp (0.1ºC/min from 25ºC-40ºC)
+	- Ctmax fast ramp (1ºC/min from 25ºC-40ºC)
+	- Static (2 hrs at 39ºC)
+	- Hardening (36ºC for 1 hr, 25ºC for 1 hr, 39ºC for 1 hr)
+	- Ask Tatiana about drosophila rearing temp
+
+
+Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock gene expression responds to modification of Hsp70 copy number in Drosophila melanogaster but does not compensate for loss of thermotolerance in Hsp70 null flies." BMC biology 6.1 (2008): 5.
 
 ------
 
