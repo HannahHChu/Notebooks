@@ -20,7 +20,7 @@
 * [Page 6: 2018-06-03 ](#id-section6). G Matrix & ECB Exp. Plan
 * [Page 7: 2018-06-04 ](#id-section7). Survival Data Analysis
 * [Page 8:  2018-06-05](#id-section8). Proteome Stability Programming
-* [Page 9: 2018-06-06 ](#id-section9).
+* [Page 9: 2018-06-06 ](#id-section9). Proteome Stability Project To Do List
 * [Page 10:  ](#id-section10).
 * [Page 11:  ](#id-section11).
 * [Page 12:  ](#id-section12).
@@ -566,9 +566,78 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 
 <div id='id-section9'/>
 
-### Page 9: 2018-06-06
+### Page 9: 2018-06-06 Proteome Stability Project To Do List
+**To Do List**
+- [X] Create rack for water bath (14 tubes)
+![waterbathrack](https://github.com/HannahHChu/Notebooks/blob/master/Images/water_bath_tubes4.JPG)
+- [ ] Write out and add protocol to HahnLab protocols (Refer to Andrew's website) including:
+	- brand
+	- images
+	- catalog #
+	- vendor ID
+- [ ] Develop ramping programming based on the apparatus inside the water bath
+- [X] Find a way to keep the thermocoupler stable in the water bath
+- [X] Plot the data from ramping tests
+- [X] Evening check for free runs
+
+#### Ramping Protocol Testing
+**Static**
+<u>Test 1</u>
+![test1c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test1chart.png)
+![test1](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t1.png)
+| Time (min) | Temp (ºC) |
+| -- 		 | --------- |
+| 1  		 | 25.1  |
+| 2  		 | 25.1  |
+| 3  		 | 25.1  |
+| 4  		 | 25.1  |
+| 5  		 | 25.1  |
+| 6  		 | 25.7  |
+| 7  		 | 26.6  |
+| 8  		 | 27.7  |
+| 9  		 | 28.7  |
+| 10		 | 30.0  |
+| 11 		 | 32.0  |
+
+<u>Test 2</u>
+![test2c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test2chart.png)
+![test2](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t2.png)
+| Time (min) | Temp (ºC) |
+| -- 		 | --------- |
+| 1  		 | 25.1  |
+| 2  		 | 25.1  |
+| 3  		 | 25.1  |
+| 4  		 | 25.1  |
+| 5  		 | 25.1  |
+| 6  		 | 26.0  |
+| 7  		 | 27.1  |
+| 8  		 | 28.0  |
+| 9  		 | 29.7  |
+| 10		 | 31.9  |
+| 11 		 | 33.9  |
+| 12 		 | 36.3  |
+| 13 		 | 38.3  |
+| 14 		 | 40.3  |
 
 
+<u>Test 3</u>
+![test3c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test3chart.png)
+![test3](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t3.png)
+| Time (min) | Temp (ºC) |
+| -- 		 | --------- |
+| 1  		 | 25.1  |
+| 2  		 | 25.1  |
+| 3  		 | 25.1  |
+| 4  		 | 25.1  |
+| 5  		 | 25.1  |
+| 6  		 | 25.9  |
+| 7  		 | 27.3  |
+| 8  		 | 29.2  |
+| 9  		 | 31.6  |
+| 10		 | 33.8  |
+| 11 		 | 35.7  |
+| 12 		 | 37.7  |
+| 13 		 | 39.9  |
 
 ------
 
