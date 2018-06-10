@@ -21,8 +21,8 @@
 * [Page 7: 2018-06-04 ](#id-section7). Survival Data Analysis
 * [Page 8:  2018-06-05](#id-section8). Proteome Stability Programming
 * [Page 9: 2018-06-06 ](#id-section9). Proteome Stability Project To Do List
-* [Page 10:  ](#id-section10).
-* [Page 11:  ](#id-section11).
+* [Page 10: 2018-06-07 ](#id-section10). Water Bath Tests
+* [Page 11: 2018-06-08 ](#id-section11). Water Bath Tests II
 * [Page 12:  ](#id-section12).
 * [Page 13:  ](#id-section13).
 * [Page 14:  ](#id-section14).
@@ -275,7 +275,7 @@ Metabolic Rate = CO2 production/ hours
 Mass Specific Metabolic Rate = CO2 production/hrs per mass
 
 * What are cohorts?
-	* Essentially handling replicats because we cannot sample all flies at once. For each cohort, there are two batches: (1) licor 7000 and (2) licor 6262
+	* Essentially handling replicates because we cannot sample all flies at once. For each cohort, there are two batches: (1) licor 7000 and (2) licor 6262
 	* To process more samples, measurements were spread across 2 respirometers(licors).
 	* Each licor has associated tape color indicated in tape column
 	* When purged (allowing pupae to breathe in a syringe under standardized air without CO2), there was a start and end time for beginning and end of purge for each tape samples (licor batch). 
@@ -537,8 +537,6 @@ mermaid("
 - [X] Update storage sheet
 - [ ] Read Plata & Vitkup (2017) and Leuenberger, et. al. (2017)
 
-
-
 ------
 
 <div id='id-section8'/>
@@ -558,7 +556,6 @@ mermaid("
 	- Static (2 hrs at 39ºC)
 	- Hardening (36ºC for 1 hr, 25ºC for 1 hr, 39ºC for 1 hr)
 	- Ask Tatiana about drosophila rearing temp
-
 
 Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock gene expression responds to modification of Hsp70 copy number in Drosophila melanogaster but does not compensate for loss of thermotolerance in Hsp70 null flies." BMC biology 6.1 (2008): 5.
 
@@ -602,6 +599,7 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 <u>Test 2</u>
 ![test2c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test2chart.png)
 ![test2](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t2.png)
+
 | Time (min) | Temp (ºC) |
 | -- 		 | --------- |
 | 1  		 | 25.1  |
@@ -609,16 +607,14 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 | 3  		 | 25.1  |
 | 4  		 | 25.1  |
 | 5  		 | 25.1  |
-| 6  		 | 26.0  |
-| 7  		 | 27.1  |
-| 8  		 | 28.0  |
-| 9  		 | 29.7  |
-| 10		 | 31.9  |
-| 11 		 | 33.9  |
-| 12 		 | 36.3  |
-| 13 		 | 38.3  |
-| 14 		 | 40.3  |
-
+| 6  		 | 25.9  |
+| 7  		 | 27.3  |
+| 8  		 | 29.2  |
+| 9  		 | 31.6  |
+| 10		 | 33.8  |
+| 11 		 | 35.7  |
+| 12 		 | 37.7  |
+| 13 		 | 39.9  |
 
 <u>Test 3</u>
 ![test3c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test3chart.png)
@@ -643,13 +639,45 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 
 <div id='id-section10'/>
 
-### Page 10:
+### Page 10: 2018-06-07 Water Bath Tests
+- [X] Tested ramping for slow and fast - refer to pages 10-15 in NB#001.
+Problem with fast ramp at 32ºC, the water bath either speeds up too much or slows down too much.
+
+- [X] Nightly check for free run and eclosion
+
 
 ------
 
 <div id='id-section11'/>
 
-### Page 11:
+### Page 11: 2018-06-08 Water Bath Tests II
+- [X] Tested ramping for fast - refer to page 26 in NB#001.
+| Time (min) | Temp (ºC) |
+| -- 		 | --------- |
+| 1  		 | 25.1  |
+| 2  		 | 25.1  |
+| 3  		 | 25.1  |
+| 4  		 | 25.1  |
+| 5  		 | 25.1  |
+| 6  		 | 25.6  |
+| 7  		 | 26.6  |
+| 8  		 | 27.7  |
+| 9  		 | 28.6  |
+| 10		 | 29.6  |
+| 11 		 | 30.7  |
+| 12 		 | 31.7  |
+| 13 		 | 32.5  |
+| 14 		 | 33.5  |
+| 15 		 | 34.5  |
+| 16 		 | 35.5  |
+| 17 		 | 36.5  |
+| 18 		 | 37.5  |
+| 18 		 | 38.5  |
+| 20 		 | 39.5  |
+| 21 		 | 40.0  |
+
+- [X] Nightly check for free run and eclosion
+
 
 ------
 
