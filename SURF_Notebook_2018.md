@@ -717,9 +717,13 @@ Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes s
 **To Do List**
 - [ ] Write protocol for proteome stability project
 - [ ] Night free run check
-- [ ] Thermometer calibrations
+- [X] Thermometer calibrations
 
-### ExTech Thermocoupler
+##### ExTech Thermocoupler Easyview 15
+[Manual](http://www.extech.com/resources/EA15_UM.pdf)
+[Website](http://www.extech.com/display/?id=14443)
+	Catalog No. EA15
+![img](https://github.com/HannahHChu/Notebooks/blob/master/Images/IMG_8001.jpg)
 ```{r}
 settemp<- c(0, 25, 30, 35, 40, 45, 50)
 T1 <- c(0.7, 24.2, 29.1, 34.1, 39.2, 44.2, 49.1)
@@ -738,7 +742,11 @@ plot(T2, narrow)
 abline(fit2)
 ```
 
-### Omega Thermocoupler
+##### Omega Thermocoupler HH506RA
+[Manual](https://www.omega.com/manuals/manualpdf/M4079.pdf)
+[Website](https://www.omega.com/pptst/HH506A_HH506RA.html)
+	Model No. HH506RA
+![img](https://github.com/HannahHChu/Notebooks/blob/master/Images/IMG_8002.jpg)
 ```{r}
 settemp<- c(25, 30, 35, 40, 45, 50)
 T1o <- c(25, 32.7, 40.3, 47.9, 55.4, 64.6)
