@@ -23,7 +23,7 @@
 * [Page 9: 2018-06-06 ](#id-section9). Proteome Stability Project To Do List
 * [Page 10: 2018-06-07 ](#id-section10). Water Bath Tests
 * [Page 11: 2018-06-08 ](#id-section11). Water Bath Tests II
-* [Page 12:  ](#id-section12).
+* [Page 12: 2018-06-10 ](#id-section12). Rhagoletis Viability Selection Analysis -- unfinished summary
 * [Page 13:  ](#id-section13).
 * [Page 14:  ](#id-section14).
 * [Page 15:  ](#id-section15).
@@ -645,7 +645,6 @@ Problem with fast ramp at 32ºC, the water bath either speeds up too much or slo
 
 - [X] Nightly check for free run and eclosion
 
-
 ------
 
 <div id='id-section11'/>
@@ -678,12 +677,37 @@ Problem with fast ramp at 32ºC, the water bath either speeds up too much or slo
 
 - [X] Nightly check for free run and eclosion
 
-
 ------
 
 <div id='id-section12'/>
 
-### Page 12:
+### Page 12: 2018-06-10 Rhagoletis Viability Selection Analysis -- unfinished summary
+
+**ANOVA**
+ANOVA  tests for differences between two or more means
+* The null hypothesis would be that the two means are equal
+* Significance would indicate that two means are not equal
+
+<u>One Way ANOVA</u> compares two means from two independent groups, in this case eclosion date and host (specific to SO and RT)
+<u>Two Way ANOVA</u> compares means of two independent variables affecting one dependent variable, in this case the effect of Host and treatment (interacting) on eclosion
+
+Both the one way and two way ANOVA tests showed significance between the two means (meaning they are not equal). The two way ANOVA suggests that there is a difference in number of days to eclosion based on treatment type - favorable conditions vs. simulated overwintering. Therefore, a one way ANOVA was done for each treatment to test whether there is any significance between host type and days to eclosion. The one way ANOVA showed significance for both treatments; however, the simulated overwintering samples had a lower p value, which indicates higher signigicance.
+
+**Negative Binomial Regression**
+Samples were split into two treatments, RT (favorable conditions) and SO (simulated overwintering). The dependent variable was lifespan, while the independent variables were metabolic rate in relation to host and mass. For this model, a negative coefficient of the log value would indicate a shorter lifespan since it produces a log-linear model in which a positive coefficient would indicate a (larger x and y value)?.
+
+Based on the RT treatment, only mass showed significance which suggests an individual with a larger mass would have a longer lifespan (positive coefficient). Analysis of the SO treatment showed significance in host type, metabolic rate, and mass, in which a lower metabolic rate would suggest longer lifespan (neg. coefficient), and larger mass would suggest longer lifespan(pos. coefficient). Hawthorne individuals also had an overall lower lifespan compared to apple. 
+
+Negative binomial regression was shown to be a good model by comparing its log likelihood to a poisson distribution. Values close to 0 (which estimates the dispersion parameter) strongly suggests the NBR model is more appropriate than the Poisson model for both treatments.
+
+**Cox Regression**
+Samples were split into two treatments, RT (favorable conditions) and SO (simulated overwintering). The dependent variable was lifespan, while the independent variables were metabolic rate in relation to host and mass. For this model, the coefficient relates x variables (metabolic rate, host, and mass) to likelihood of death. The dependent variable is lifespan again.
+
+The RT treatment only showed significance for mass (negative coefficient), in which a lower mass suggests a lower likelihood of death (i.e. longer lifespan). ? doesnt agree with NBR
+
+The SO treatment showed significance for metabolic rate, host, and mass. The positive coefficient for the hawthorne hosts and metabolic rate indicate higher likelihood of death if the individual is a host to hawthorne and/or the individual has a high metabolic rate. This agrees with the NBR model. However, the negative coefficient for mass indicates a lower likelyhood of death with smaller masses which disagrees with the NBR model. 
+
+Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes sense since an organism who reserves its energy would take longer to develop, thus longer to die. According to the evolution theory described in Olshansky & Rattan (2009), higher metabolic rates are liked to species with "high extrinsic mortality" (e.g. targeted prey) since they must quickly develop and reproduce in order to pass down their genes. Lower metabolic rates were linked to individuals with lower extrinsic mortalities and could take their time to gradually develop into larger sizes and live longer. 
 
 ------
 
