@@ -780,12 +780,14 @@ abline(0,1)
 
 **notes about those conclusions**: 
 "Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes sense since an organism who reserves its energy would take longer to develop, thus longer to die". 
-	* This is interesting, but what is the cost of low vs high metabolic rates in terms of seasonal timing? 
-	* What is costly between the treatments that relate to the natural setting? I think you can expand on some thoughts in this area. 
+
+* This is interesting, but what is the cost of low vs high metabolic rates in terms of seasonal timing? 
+* What is costly between the treatments that relate to the natural setting? I think you can expand on some thoughts in this area. 
 
 "According to the evolution theory described in Olshansky & Rattan (2009), higher metabolic rates are liked to species with "high extrinsic mortality" (e.g. targeted prey) since they must quickly develop and reproduce in order to pass down their genes." 
-	* This statement somewhat contrasts the previous. Is it that lifespan is a function of metabolic rate? Or does selection weed out ones that express metabolic rates which don't match the environment optimally?
-	* What is the extrinsic mortality factor in this case? 
+
+* This statement somewhat contrasts the previous. Is it that lifespan is a function of metabolic rate? Or does selection weed out ones that express metabolic rates which don't match the environment optimally?
+* What is the extrinsic mortality factor in this case? 
 
 ------
 
