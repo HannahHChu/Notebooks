@@ -24,8 +24,8 @@
 * [Page 10: 2018-06-07 ](#id-section10). Water Bath Tests
 * [Page 11: 2018-06-08 ](#id-section11). Water Bath Tests II
 * [Page 12: 2018-06-10 ](#id-section12). Rhagoletis Viability Selection Analysis -- unfinished summary
-* [Page 13: 2018-06-11  ](#id-section13). 
-* [Page 14:  ](#id-section14).
+* [Page 13: 2018-06-11  ](#id-section13). Thermocouple Calibrations
+* [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions
 * [Page 15:  ](#id-section15).
 * [Page 16:  ](#id-section16).
 * [Page 17:  ](#id-section17).
@@ -713,10 +713,10 @@ Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes s
 
 <div id='id-section13'/>
 
-### Page 13: 2018-06-11
+### Page 13: 2018-06-11 Thermocouple Calibrations
 **To Do List**
 - [ ] Write protocol for proteome stability project
-- [ ] Night free run check
+- [X] Night free run check
 - [X] Thermometer calibrations
 
 ##### ExTech Thermocoupler Easyview 15
@@ -733,12 +733,12 @@ narrow <- c(0.2, 25.1, 30, 35, 40, 45, 50)
 
 fit<-lm(narrow~T1)
 summary(fit)
-plot(T1, narrow)
+plot(T1, narrow, main = "ExTech")
 abline(fit)
 
 fit2<-lm(narrow~T2)
 summary(fit2)
-plot(T2, narrow)
+plot(T2, narrow, main = "ExTech")
 abline(fit2)
 ```
 
@@ -756,12 +756,12 @@ narrowo <- c(25.1, 30, 35, 40, 45, 50)
 
 fito<-lm(narrow~T1)
 summary(fito)
-plot(T1o, narrowo)
+plot(T1o, narrowo, main = "Omega")
 abline(0,1)
 
 fit2o<-lm(narrow~T2)
 summary(fit2o)
-plot(T2o, narrowo)
+plot(T2o, narrowo, main = "Omega")
 abline(0,1)
 ```
 
@@ -769,7 +769,23 @@ abline(0,1)
 
 <div id='id-section14'/>
 
-### Page 14:
+### Page 14: 2018-06-12 Rhagoletis Data Revisions
+- [ ] Free Run Check
+- [ ] Work on Rmd file based on Andrew's comments:
+	- Comment out long stretches of data code ('glimpse')
+	- Space after hashtags 
+	- Include conclusion of the analysis in the Rmd file too. 
+	- Summarise statistical analysis under the r chunk (ie We tested the effect of x,y on z. Or we determined the hazard rate of xy on z)
+	- Annotate filtering
+
+**notes about those conclusions**: 
+"Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes sense since an organism who reserves its energy would take longer to develop, thus longer to die". 
+	* This is interesting, but what is the cost of low vs high metabolic rates in terms of seasonal timing? 
+	* What is costly between the treatments that relate to the natural setting? I think you can expand on some thoughts in this area. 
+
+"According to the evolution theory described in Olshansky & Rattan (2009), higher metabolic rates are liked to species with "high extrinsic mortality" (e.g. targeted prey) since they must quickly develop and reproduce in order to pass down their genes." 
+	* This statement somewhat contrasts the previous. Is it that lifespan is a function of metabolic rate? Or does selection weed out ones that express metabolic rates which don't match the environment optimally?
+	* What is the extrinsic mortality factor in this case? 
 
 ------
 
