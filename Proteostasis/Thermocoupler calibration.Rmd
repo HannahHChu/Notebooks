@@ -10,11 +10,16 @@ output:
 3. Measure the temperature in ice for 3 minutes
 4. Then measure the temperature in 5ºC intervals from 25-50ºC using the thermocouples and mercury thermometers. 
 
-## ExTech Thermocoupler Easyview 15
+# ExTech Thermocoupler Easyview 15
+
+![ExTech Easyview 15 Thermocoupler](/Users/Pikachu/Desktop/Notebooks/Images/IMG_8001.jpg)
+
   [Manual](http://www.extech.com/resources/EA15_UM.pdf)
   
   [Website](http://www.extech.com/display/?id=14443)
+	
 	Catalog No. EA15
+	
 
 ```{r}
 #settemp values are the values the water bath set temperatures
@@ -29,20 +34,24 @@ narrow <- c(0.2, 25.1, 30, 35, 40, 45, 50)
 #Fitting to a linear model based on each thermocouple
 fit<-lm(narrow~T1)
 summary(fit)
-a<- (plot(T1, narrow, main = "ExTech") + abline(fit))
+(plot(T1, narrow, main = "ExTech") + abline(fit))
 
 fit2<-lm(narrow~T2)
 summary(fit2)
-b<- (plot(T2, narrow, main = "ExTech") + abline(fit2))
+(plot(T2, narrow, main = "ExTech") + abline(fit2))
 ```
-![ExTech Easyview 15 Thermocoupler](/Users/Pikachu/Desktop/Notebooks/Images/IMG_8001.jpg)
 
 
-## Omega Thermocoupler HH506RA
+# Omega Thermocoupler HH506RA
+
+![Omega HH506RA Thermocoupler](/Users/Pikachu/Desktop/Notebooks/Images/IMG_8002.jpg)
+
   [Manual](https://www.omega.com/manuals/manualpdf/M4079.pdf)
 
   [Website](https://www.omega.com/pptst/HH506A_HH506RA.html)
+	
 	Model No. HH506RA
+	
 	
 **Note** To calibrate this thermocouple, press "SET[]" and "[OFS]" to open up adjustment screen. On that screen adjust for the difference (+/-) in the actual temperature value and measured value. 
 
@@ -50,75 +59,56 @@ b<- (plot(T2, narrow, main = "ExTech") + abline(fit2))
 #settemp values are the values the water bath set temperatures
 #T1o is thermocouple 1 and T2o is thermocouple 2
 #wide is the wide range mercury thermometer readings and narrow is the narrow range mercury thermometer readings
-settemp<- c(25, 30, 35, 40, 45, 50)
-T1o <- c(25, 32.7, 40.3, 47.9, 55.4, 64.6)
-T2o <- c(25, 30, 35, 40.1, 45.2, 51.5)
+settemp<- c(0, 25, 30, 35, 40, 45, 50)
+T1o <- c(-12.6, 25, 32.7, 40.3, 47.9, 55.4, 64.6)
+T2o <- c(0, 25, 30, 35, 40.1, 45.2, 51.5)
 wide <- c(0, 25.05, 30, 35, 40, 45, 50)
 narrow <- c(0.2, 25.1, 30, 35, 40, 45, 50)
 
 #Fitting to a linear model based on each thermocouple
-fito<-lm(narrow~T1)
+fito<-lm(narrow~T1o)
 summary(fito)
-C<-(plot(T1o, narrowo, main = "Omega") + abline(fito))
+(plot(T1o, narrow, main = "Omega") + abline(fito))
 
-fit2o<-lm(narrow~T2)
+fit2o<-lm(narrow~T2o)
 summary(fit2o)
-d<-(plot(T2o, narrowo, main = "Omega") + abline(fit2o))
+(plot(T2o, narrow, main = "Omega") + abline(fit2o))
 ```
 
-![Omega HH506RA Thermocoupler](/Users/Pikachu/Desktop/Notebooks/Images/IMG_8002.jpg)
-## Overview
+# Overview
 ![4-panel comparing the linear regression of each thermocouple](/Users/Pikachu/Desktop/Notebooks/Images/overview_cali.png)
+
+```{r}
+layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
+```
 
 ```{r}
 #Calculate the offset values for each thermocoupler and thermocouple
 #oT1 and oT2 refer to Omega and eT1 and eT2 refer to ExTech
 eT1 <- c(0.7, 24.2, 29.1, 34.1, 39.2, 44.2, 49.1)
-deT1 <- (settemp-eT1)
+ExTechT1 <- (settemp-eT1)
 eT2 <- c(1, 23.9, 28.7, 33.8, 38.8, 43.9, 48.7)
-deT2 <- c(settemp-eT2)
-oT1 <- c(0, 25, 32.7, 40.3, 47.9, 55.4, 64.6)
-doT1 <- c(settemp-oT1)
+ExTechT2 <- c(settemp-eT2)
+oT1 <- c(-12.6, 25, 32.7, 40.3, 47.9, 55.4, 64.6)
+OmegaT1 <- c(settemp-oT1)
 oT2 <- c(0, 25, 30, 35, 40.1, 45.2, 51.5)
-doT2 <- c(settemp-oT2)
+OmegaT2 <- c(settemp-oT2)
+
+#Create barplot
 library(ggplot2)
 library(dplyr)
-offsets <- c(deT1, deT2, doT1, doT2)
-os<-unique(offsets)
-df<-data.frame(settemp, deT1, deT2, doT1, doT2)
+offsets <- c(ExTechT1, ExTechT2, OmegaT1, OmegaT2)
+df<-data.frame(settemp, ExTechT1, ExTechT2, OmegaT1, OmegaT2)
 df
 
 library(tidyr)
-df.long<-gather(df,therm,offset,deT1:doT2)
+df.long<-gather(df,therm,offset,ExTechT1:OmegaT2)
 
-ggplot(df.long,aes(x=settemp,y=offset,colour=therm))+geom_point()
-
+#ggplot(df.long,aes(x=settemp,y=offset,colour=therm))+geom_point()
+## Complete barplot
 ggplot(df.long,aes(x=settemp,y=offset,fill=therm))+geom_bar(stat="identity",position="dodge")
 
-## setting liits of the y axis to hone in values around 0
+## setting limits of the y axis to hone in values around 0
 ggplot(df.long,aes(x=settemp,y=offset,fill=therm))+geom_bar(stat="identity",position="dodge")+coord_cartesian(ylim=c(-2,1.4))
-
-
-ggplot(df.long,aes(x=settemp,y=offset,fill=therm))+geom_bar(stat="identity",position="dodge")
-
-
-# Basic barplot
-p<-ggplot(data=df, aes(x=settemp)) +
-  geom_bar(stat="identity")
-p
-
-
-
-temp <-rep(c(settemp), 4)
-deT1 <- (settemp-eT1)
-deT2 <- c(settemp-eT2)
-doT1 <- c(settemp-oT1)
-doT2 <- c(settemp-oT2)
-values <-c(deT1, deT2, doT1, doT2)
-type <-c(rep("OmegaT1", 7), rep("OmegaT2", 7), rep("ExTechT1", 7), rep("ExTechT2",7))
-mydata <-data.frame(temp, values)
-
-p <-ggplot(mydata, aes(temp, values))
-p +geom_bar(stat = "identity")
 
 ```

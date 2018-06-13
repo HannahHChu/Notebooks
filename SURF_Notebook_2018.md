@@ -818,8 +818,8 @@ abline(0,1)
 	* check the line that may be missing (http://wfitch.bio.uci.edu/~dspr/index.html)
 
 3. Viability selection coding proj:
-	* Fixing pdf output to make it more presentable; send to ANBE by Wednesday
-	* Create a direction of effect table to make sense of the data.
+	* Fixing pdf output to make it more presentable; send to ANBE by Wednesday √
+	* Create a direction of effect table to make sense of the data. √
 	* Show Dr. Hahn Friday.
 
 4. Calibration water bath
@@ -849,7 +849,29 @@ abline(0,1)
 
 <div id='id-section16'/>
 
-### Page 16: 2018-06-13 ECB Setup Overview
+### Page 16: 2018-06-13 ECB Setup Workflow & other tasks
+
+[See workflow for ECB](https://github.com/HannahHChu/ECB/blob/master/2018-06-12_ECB_workflow.Rmd)
+
+[See complete calibration summary](https://github.com/HannahHChu/Notebooks/blob/master/Proteostasis/Thermocoupler_calibration.pdf)
+
+**Thermometer Omega T2 Narrow Calibration check from 34-40ºC**
+
+| Set Temp (ºC) | Omega T2 Reading | Mercury Thermometer Reading |
+| -- 		 	 | ------- | --- |
+| 34  			 |   34  | 34 |
+| 34.5  		 |   34.5  | 34.5 |
+| 35  			 |   35  | 35 |
+| 35.5  		 |   35.5  | 35.5 |
+| 36	  		 |    36   | 36 |
+| 36.5  		 |    36.6   | 36.5 |
+| 37	  		 |   37  | 37 |
+| 37.5  		 |   37.5  | 37.5 |
+| 38	  		 |   38.1  | 38 |
+| 38.5  		 |   38.6  | 38.5 |
+| 39	  		 |   39.1  | 39 |
+| 39.5  		 |   39.6  | 39.5 |
+| 40	  		 |   40.1  | 40 |
 
 ------
 
