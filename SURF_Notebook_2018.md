@@ -10,6 +10,7 @@
 * Summer Undergraduate Research at Florida (SURF) Program
 	*  Rhagoletis Viability Selection Project
 	*  Proteostasis Project
+	*  ECB Project Set up
 
 # Table of contents
 * [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects
@@ -25,7 +26,7 @@
 * [Page 11: 2018-06-08 ](#id-section11). Water Bath Tests II
 * [Page 12: 2018-06-10 ](#id-section12). Rhagoletis Viability Selection Analysis -- unfinished summary
 * [Page 13: 2018-06-11  ](#id-section13). Thermocouple Calibrations
-* [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions
+* [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions & upd.  to do list for projects
 * [Page 15:  ](#id-section15).
 * [Page 16:  ](#id-section16).
 * [Page 17:  ](#id-section17).
@@ -582,6 +583,7 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 <u>Test 1</u>
 ![test1c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test1chart.png)
 ![test1](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t1.png)
+
 | Time (min) | Temp (ºC) |
 | -- 		 | --------- |
 | 1  		 | 25.1  |
@@ -619,6 +621,7 @@ Reference: Bettencourt, Brian R., et al. "Inducible and constitutive heat shock 
 <u>Test 3</u>
 ![test3c](https://github.com/HannahHChu/Notebooks/blob/master/Images/test3chart.png)
 ![test3](https://github.com/HannahHChu/Notebooks/blob/master/Images/static_protocol_t3.png)
+
 | Time (min) | Temp (ºC) |
 | -- 		 | --------- |
 | 1  		 | 25.1  |
@@ -651,6 +654,7 @@ Problem with fast ramp at 32ºC, the water bath either speeds up too much or slo
 
 ### Page 11: 2018-06-08 Water Bath Tests II
 - [X] Tested ramping for fast - refer to page 26 in NB#001.
+- 
 | Time (min) | Temp (ºC) |
 | -- 		 | --------- |
 | 1  		 | 25.1  |
@@ -707,6 +711,10 @@ The RT treatment only showed significance for mass (negative coefficient), in wh
 
 The SO treatment showed significance for metabolic rate, host, and mass. The positive coefficient for the hawthorne hosts and metabolic rate indicate higher likelihood of death if the individual is a host to hawthorne and/or the individual has a high metabolic rate. This agrees with the NBR model. However, the negative coefficient for mass indicates a lower likelyhood of death with smaller masses which disagrees with the NBR model. 
 
+**Kaplan-Meier Survival Estimate**
+The Kaplan-Meier Survival Estimate predicts the probability of survival from a specific time, so for this data, the estimates predict the probability of host survival at each time point in their lifespan. According to the figure, Hawthorne hosts have an overall lower probability of survival over apple hosts, which agrees with the previous analyses. This estimate is best used for categorical values, so MR and mass (which were all unique to the individul) were not good estimators and not used. 
+
+**Conclusion**
 Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes sense since an organism who reserves its energy would take longer to develop, thus longer to die. According to the evolution theory described in Olshansky & Rattan (2009), higher metabolic rates are liked to species with "high extrinsic mortality" (e.g. targeted prey) since they must quickly develop and reproduce in order to pass down their genes. Lower metabolic rates were linked to individuals with lower extrinsic mortalities and could take their time to gradually develop into larger sizes and live longer. 
 
 ------
@@ -769,14 +777,14 @@ abline(0,1)
 
 <div id='id-section14'/>
 
-### Page 14: 2018-06-12 Rhagoletis Data Revisions
-- [ ] Free Run Check
-- [ ] Work on Rmd file based on Andrew's comments:
-	- Comment out long stretches of data code ('glimpse')
-	- Space after hashtags 
+### Page 14: 2018-06-12 Rhagoletis Data Revisions & upd.  to do list for projects
+- [X] Free Run Check
+- [X] Work on Rmd file based on Andrew's comments:
+	- Comment out long stretches of data code ('glimpse') √
+	- Space after hashtags √
 	- Include conclusion of the analysis in the Rmd file too. 
-	- Summarise statistical analysis under the r chunk (ie We tested the effect of x,y on z. Or we determined the hazard rate of xy on z)
-	- Annotate filtering
+	- Summarise statistical analysis under the r chunk (ie We tested the effect of x,y on z. Or we determined the hazard rate of xy on z) √
+	- Annotate filtering √
 
 **notes about those conclusions**: 
 "Evolutionarily speaking, linking lower metabolic rate to longer lifespan makes sense since an organism who reserves its energy would take longer to develop, thus longer to die". 
@@ -788,6 +796,37 @@ abline(0,1)
 
 * This statement somewhat contrasts the previous. Is it that lifespan is a function of metabolic rate? Or does selection weed out ones that express metabolic rates which don't match the environment optimally?
 * What is the extrinsic mortality factor in this case? 
+
+**To Do List**:
+1. ECB project: we have an experimental approach outlined (SURF nb#001, page 32)
+	* Basically, we want to set up 5 cohorts for each strain (UZ and BE). 
+		* For each cohort, measure larval post diapause termination( transition from larvae to pupae) under favorable and unfavorable conditions. 
+		* Then take the adults and measure their activity in the trikinetics set up. In the trikinetics set up, have sugar water on 1 side and water on the other (double check)
+	* learn rearing protocol and add upon it in the existing protocol (check readme for formatting and structure)
+	* create github repository and populate with documents, data, results
+	* document experimental workflow in readme (also add a little background info on yourself and the system)
+	* log the data in an excel spreadsheet + notebook
+	* individual, strain, cohort, cohort date, pupation date, eclosion date, death date, trik enter date, trik exit date, trik position, trik monitor, (have free run version too) , sex
+
+2. DSPR proteome stability project: Flies arrived today. We obtained 13 strains (SURF nb#001, page 34). Tested static today at 39C.
+	* let flies sit for 2 weeks. Coordinate a rearing schedule
+	* document activities in notebook
+	* Try static HS at 37 C
+	* Try other heating protocols and summarise the data in a R markdown doc. Can try cold tolerance experiments but need to change water bath.
+	* Write up protocol in hahn lab protocol website github repo. Include info on vendor, pictures, and links for all materials.
+	* when starting experiment; take adults from 5-7 days (they are fully mated)
+	* check the line that may be missing (http://wfitch.bio.uci.edu/~dspr/index.html)
+
+3. Viability selection coding proj:
+	* Fixing pdf output to make it more presentable; send to ANBE by Wednesday
+	* Create a direction of effect table to make sense of the data.
+	* Show Dr. Hahn Friday.
+
+4. Calibration water bath
+	* try calibration from 35-40C range.
+	* write up technical report in Rmarkdown
+	* clean water bath, it is cloudy. Dr. Hahn suggests to put some ethanol in it. (also leave it open so it doesn't get as cloudy)
+	* make a new rack, have tubes that can be inserted into the styrofoam for better handling
 
 ------
 
