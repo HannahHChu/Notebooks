@@ -28,7 +28,7 @@
 * [Page 13: 2018-06-11  ](#id-section13). Thermocouple Calibrations
 * [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions & upd.  to do list for projects
 * [Page 15: 2019-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
-* [Page 16:  ](#id-section16).
+* [Page 16: 2018-06-13 ](#id-section16). ECB Setup Workflow & other tasks
 * [Page 17:  ](#id-section17).
 * [Page 18:  ](#id-section18).
 * [Page 19:  ](#id-section19).
