@@ -29,7 +29,7 @@
 * [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions & upd.  to do list for projects
 * [Page 15: 2019-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
 * [Page 16: 2018-06-13 ](#id-section16). ECB Setup Workflow & other tasks
-* [Page 17:  ](#id-section17).
+* [Page 17: 2018-06-13 ](#id-section17). Notes and Data from yesterday's practice HS
 * [Page 18:  ](#id-section18).
 * [Page 19:  ](#id-section19).
 * [Page 20:  ](#id-section20).
@@ -877,7 +877,63 @@ abline(0,1)
 
 <div id='id-section17'/>
 
-### Page 17:
+### Page 17:2018-06-13 Notes for DSPR and Data from yesterday's practice HS
+
+[DSPR Website](http://wfitch.bio.uci.edu/~dspr/index.html)
+* Recieved 13 lines on 2018-06-12
+*  Empty vials contain eggs and larvae
+*  Make sure cotton cover is tight to prevent flies from escaping
+*  Vials were labeled 11JUN2018 -- on Friday (2018-06-15), transfer those adults into a bottle
+*  How to tell Male and Female apart:
+	*  Males: front legs have "sex cones" for mounting, abdomen is narrower with a black tip
+	*  Females have thicker abdomens that are all white (full with eggs)
+*  Keep the old vial (vial with adults that were flipped into new vials) and wait 1 week for new generation of adults
+*  Keep vials fresh, 21 max days for vial age
+	*  This is to prevent mites: 2 miticides are sodium benzoate & probenoic acid
+	*  
+**Stock flies we are allowed to use**
+H1, H2, C1, C2
+
+**DSPR Lines Recieved**
+Reference: SURF NB #001 pg 34
+
+| #   | Name | No. of Vials | Date 		|
+| --- | ---- | ---------  | ------|
+| 1  | AB8  |  3  	 	 |  2018-06-11	|
+| 2  | A5 	|  2  		 |  2018-06-11  |
+| 3  | A7   |  2  		 |  2018-06-11 	|
+| 4  | A2 	|  2   	 	 | 2018-06-11	|
+| 5  | B6   |  2    	 |  2018-06-11 	|
+| 6  | B7 	|  2  		 |  2018-06-11 	|
+| 7  | A4   |  2  		 |  2018-06-11 	|
+| 8  | A6 	|  2  		 |  2018-06-11 	|
+| 9  | A3   |  2  	 	 |  2018-06-11 	|
+| 10 | B2 	|  2  		 |  2018-06-11 	|
+| 11 | B3   |  2  		 |  2018-06-11 	|
+| 12 | A1 	|  2  		 |  2018-06-11 	|
+| 13 | B4   |  2  		 |  2018-06-11 	|
+
+**Practice Heat Shock**
+Protocol for Static at 39ºC
+Lines used: C1, C2, H1, H2 (2018-05-21)
+Knockdown: on back, inactivity for 5-10 sec
+
+| Position   | Line | Time (M:S) | Notes 		|
+| --- | ---- | ---------  | ------|
+| 1  | H1  	|  09:20  	 	 |  	|
+| 2  | C2 	|    		 |  Looked dead immediately  |
+| 3  | H2   |   10:00		 |  Stopped moving for a little	|
+| 4  | C1 	|  11:00   	 	 |  |
+| 5  | C2   |  09:06    	 |  	|
+| 6  | H1 	|  14:10  		 |  Stopped moving for a little	|
+| 7  | H2   |  11:40  		 |  	|
+| 8  | H1 	|  14:31  		 |  	|
+| 9  | C2   |  10:30  	 	 |  	|
+| 10 | C1 	|  09:40  		 |   	|
+| 11 | H2   |  12:00  		 |  	|
+| 12 | H2 	|  11:50  		 |  	|
+| 13 | C2   |    		 	 |  Looked dead immediately 	|
+| 14 | H1   |  11:30  		 |  	|
 
 ------
 
