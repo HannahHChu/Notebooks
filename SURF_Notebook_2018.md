@@ -890,11 +890,14 @@ abline(0,1)
 *  Keep the old vial (vial with adults that were flipped into new vials) and wait 1 week for new generation of adults
 *  Keep vials fresh, 21 max days for vial age
 	*  This is to prevent mites: 2 miticides are sodium benzoate & probenoic acid
-	*  
+
+
 **Stock flies we are allowed to use**
+
 H1, H2, C1, C2
 
 **DSPR Lines Recieved**
+
 Reference: SURF NB #001 pg 34
 
 | #   | Name | No. of Vials | Date 		|
@@ -914,8 +917,11 @@ Reference: SURF NB #001 pg 34
 | 13 | B4   |  2  		 |  2018-06-11 	|
 
 **Practice Heat Shock**
+
 Protocol for Static at 39ºC
+
 Lines used: C1, C2, H1, H2 (2018-05-21)
+
 Knockdown: on back, inactivity for 5-10 sec
 
 | Position   | Line | Time (M:S) | Notes 		|
