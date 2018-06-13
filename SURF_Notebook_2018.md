@@ -27,7 +27,7 @@
 * [Page 12: 2018-06-10 ](#id-section12). Rhagoletis Viability Selection Analysis -- unfinished summary
 * [Page 13: 2018-06-11  ](#id-section13). Thermocouple Calibrations
 * [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions & upd.  to do list for projects
-* [Page 15:  ](#id-section15).
+* [Page 15: 2019-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
 * [Page 16:  ](#id-section16).
 * [Page 17:  ](#id-section17).
 * [Page 18:  ](#id-section18).
@@ -654,7 +654,7 @@ Problem with fast ramp at 32ºC, the water bath either speeds up too much or slo
 
 ### Page 11: 2018-06-08 Water Bath Tests II
 - [X] Tested ramping for fast - refer to page 26 in NB#001.
-- 
+
 | Time (min) | Temp (ºC) |
 | -- 		 | --------- |
 | 1  		 | 25.1  |
@@ -832,13 +832,24 @@ abline(0,1)
 
 <div id='id-section15'/>
 
-### Page 15:
+### Page 15: 2018-06-12 Sorting out the coefficients of models for Rhagoletis
+
+| Condition | Variable | Statistical Model | Coefficient | Meaning |
+| -- 		 | ------- | --- | ---- | --- |
+| RT  		 |   Mass  | NBR | pos. | larger mass, longer lifespan |
+| RT  		 |   Mass  | Cox | neg. | larger mass, less likely to die |
+| SO  		 |   Mass  | NBR | pos. | larger mass, longer lifespan |
+| SO  		 |   Mass  | Cox | neg. | larger mass, less likely to die |
+| SO  		 |    MR   | NBR | neg. | lower MR, longer lifespan |
+| SO  		 |    MR   | Cox | pos. | higher MR, more likely to die |
+| SO  		 |   Host  | NBR | neg. | Haw flies have overall shorter lifespan |
+| SO  		 |   Host  | Cox | pos. | Haw flies are more likely to die |
 
 ------
 
 <div id='id-section16'/>
 
-### Page 16:
+### Page 16: 2018-06-13 ECB Setup Overview
 
 ------
 
