@@ -820,11 +820,11 @@ abline(0,1)
 3. Viability selection coding proj:
 	* Fixing pdf output to make it more presentable; send to ANBE by Wednesday √
 	* Create a direction of effect table to make sense of the data. √
-	* Show Dr. Hahn Friday.
+	* Show Dr. Hahn Friday. 
 
 4. Calibration water bath
-	* try calibration from 35-40C range.
-	* write up technical report in Rmarkdown
+	* try calibration from 35-40C range. √
+	* write up technical report in Rmarkdown √
 	* clean water bath, it is cloudy. Dr. Hahn suggests to put some ethanol in it. (also leave it open so it doesn't get as cloudy)
 	* make a new rack, have tubes that can be inserted into the styrofoam for better handling
 
@@ -896,7 +896,7 @@ abline(0,1)
 
 H1, H2, C1, C2
 
-**DSPR Lines Recieved**
+**DSPR Lines Recieved** (Missing B5 line)
 
 Reference: SURF NB #001 pg 34
 
@@ -945,7 +945,33 @@ Knockdown: on back, inactivity for 5-10 sec
 
 <div id='id-section18'/>
 
-### Page 18:
+### Page 18: 2018-06-13 Practice Heat Shock at 37ºC
+
+Protocol for Static at 37ºC
+
+Lines used: C1, C2, H1, H2 (2018-05-28)
+
+Knockdown: on back, inactivity for 5-10 sec
+
+| Position   | Line | Time (M:S) | Notes 		|
+| --- | ---- | ---------  | ------|
+| 1  | C2  	|  34:54  	 	 | Male, fell over at 29:13	|
+| 2  | C1 	|  87:22		 | Male, twitched for a long time   |
+| 3  | H2   |  95:41		 |  Female	|
+| 4  | H2 	|  94:19   	 	 | Female |
+| 5  | C1   |  06:03    	 |  Female	|
+| 6  | C1 	|  92:51  		 |  Male	|
+| 7  | H1   |  79:30  		 |  Female	|
+| 8  | C2 	|  69:38  		 |  Male	|
+| 9  | H1   |  63:40  	 	 |  Female	|
+| 10 | H2 	|  85:45  		 |  Female 	|
+| 11 | C1   |  91:20  		 |  Female	|
+| 12 | H1 	|  59:07  		 |  Female	|
+| 13 | C2   |  98:24  	 	 |  Female 	|
+| 14 | H1   |  98:38  		 |  Female	|
+
+* Try 38ºC next time for static
+
 
 ------
 
