@@ -30,9 +30,9 @@
 * [Page 15: 2019-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
 * [Page 16: 2018-06-13 ](#id-section16). ECB Setup Workflow & other tasks
 * [Page 17: 2018-06-13 ](#id-section17). Notes and Data from yesterday's practice HS
-* [Page 18:  ](#id-section18).
-* [Page 19:  ](#id-section19).
-* [Page 20:  ](#id-section20).
+* [Page 18: 2018-096-13  ](#id-section18). Practice Heat Shock at 37ºC
+* [Page 19: 2017-06-14  ](#id-section19). Protists Project Notes
+* [Page 20: 2017-06-14 ](#id-section20). Practice Heat Shock at 38ºC & ECB diet notes
 * [Page 21:  ](#id-section21).
 * [Page 22:  ](#id-section22).
 * [Page 23:  ](#id-section23).
@@ -972,18 +972,69 @@ Knockdown: on back, inactivity for 5-10 sec
 
 * Try 38ºC next time for static
 
-
 ------
 
 <div id='id-section19'/>
 
-### Page 19:
+### Page 19: 2018-06-14 Protists Project Notes
+
+* Reconstruct phylogenies (gene level & concatonated genes)
+	* Estimate the evolutionary substitution rate model
+	* Cipres: jModelTest2 on XSEDE (2.1.6)   - Statistical selection of best-fit models of nucleotide substitution, run on XSEDE
+		* Specify parameters to reconstruct phylogenies
+* Build Trees with MLE (GARLI) or Bayesian (Mr. Bayes)
+* Concatonated genes - talk to Andrew
+* For R: read.tree function (newick file)
 
 ------
 
 <div id='id-section20'/>
 
-### Page 20:
+### Page 20: 2018-06-14 Protocol for Static at 38ºC & ECB diet notes
+Protocol for Static at 38ºC
+
+Lines used: C1, C2, H1, H2 (2018-05-28)
+
+Knockdown: on back, inactivity for 5-10 sec
+
+| Position   | Line | Time (M:S) | Notes 		|
+| --- | ---- | ---------  | ------|
+| 1  | H2  	|  39:44  	 	 | Male	|
+| 2  | C1 	|  58:32		 | Female  |
+| 3  | C2   |  41:07		 |  Male	|
+| 4  | H2 	|  60:02   	 	 | Female, down for 15 min, and got back up |
+| 5  | H1   |  27:02    	 |  Female	|
+| 6  | C1 	|  61:50  		 | Female	|
+| 7  | H1   |  28:21  		 |  Female	|
+| 8  | C2 	|  44:10  		 |  Male	|
+| 9  | H2   |  47:07  	 	 |  Male	|
+| 10 | C1 	|  29:38  		 |  Male 	|
+| 11 | H1   |  32:30  		 |  Male	|
+| 12 | H2 	|  48:15  		 |  Male	|
+| 13 | C1   |  37:36  	 	 |  Male 	|
+| 14 | C2   |  21:21  		 |  Male	|
+
+**Future plans for HS Practice** 
+
+* Try 38.5ºC and maybe 37.5ºC
+* Slow ramp
+* Plot KD temp vs KD time
+![HS practice](https://github.com/HannahHChu/Notebooks/blob/master/Images/IMG_8034.JPG)
+
+**ECB Adult Diet** by DA Andow & TJ Stodola - University of Minnesota
+
+[Link](https://conservancy.umn.edu/bitstream/handle/11299/174415/ECB%20Manual%20Final.pdf?sequence=4&isAllowed=y)
+
+* 10g Agar
+* 710 mL dH2O
+* 280g Sucrose
+
+1. Heat agar and water to 90ºC
+2. Add 280g sucrose
+3. Stir and cool to 54ºC
+4. Pour into mold
+
+*Makes 1L*
 
 ------
 
