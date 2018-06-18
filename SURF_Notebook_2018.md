@@ -27,14 +27,14 @@
 * [Page 12: 2018-06-10 ](#id-section12). Rhagoletis Viability Selection Analysis -- unfinished summary
 * [Page 13: 2018-06-11  ](#id-section13). Thermocouple Calibrations
 * [Page 14: 2018-06-12  ](#id-section14). Rhagoletis Data Revisions & upd.  to do list for projects
-* [Page 15: 2019-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
+* [Page 15: 2018-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
 * [Page 16: 2018-06-13 ](#id-section16). ECB Setup Workflow & other tasks
 * [Page 17: 2018-06-13 ](#id-section17). Notes and Data from yesterday's practice HS
 * [Page 18: 2018-096-13  ](#id-section18). Practice Heat Shock at 37ºC
-* [Page 19: 2017-06-14  ](#id-section19). Protists Project Notes
-* [Page 20: 2017-06-14 ](#id-section20). Practice Heat Shock at 38ºC & ECB diet notes
-* [Page 21:  ](#id-section21).
-* [Page 22:  ](#id-section22).
+* [Page 19: 2018-06-14  ](#id-section19). Protists Project Notes
+* [Page 20: 2018-06-14 ](#id-section20). Practice Heat Shock at 38ºC & ECB diet notes
+* [Page 21: 2018-06-15 ](#id-section21).  Practice Heat Shock at 38ºC & tasks update
+* [Page 22: 2018-06-18 ](#id-section22). Plan for this week
 * [Page 23:  ](#id-section23).
 * [Page 24:  ](#id-section24).
 * [Page 25:  ](#id-section25).
@@ -693,6 +693,7 @@ ANOVA  tests for differences between two or more means
 * Significance would indicate that two means are not equal
 
 <u>One Way ANOVA</u> compares two means from two independent groups, in this case eclosion date and host (specific to SO and RT)
+
 <u>Two Way ANOVA</u> compares means of two independent variables affecting one dependent variable, in this case the effect of Host and treatment (interacting) on eclosion
 
 Both the one way and two way ANOVA tests showed significance between the two means (meaning they are not equal). The two way ANOVA suggests that there is a difference in number of days to eclosion based on treatment type - favorable conditions vs. simulated overwintering. Therefore, a one way ANOVA was done for each treatment to test whether there is any significance between host type and days to eclosion. The one way ANOVA showed significance for both treatments; however, the simulated overwintering samples had a lower p value, which indicates higher signigicance.
@@ -851,7 +852,7 @@ abline(0,1)
 
 ### Page 16: 2018-06-13 ECB Setup Workflow & other tasks
 
-[See workflow for ECB](https://github.com/HannahHChu/ECB/blob/master/2018-06-12_ECB_workflow.Rmd)
+[See workflow for ECB](https://github.com/HannahHChu/ECB/blob/master/Documents/2018-06-12_ECB_workflow.Rmd)
 
 [See complete calibration summary](https://github.com/HannahHChu/Notebooks/blob/master/Proteostasis/Thermocoupler_calibration.pdf)
 
@@ -891,6 +892,16 @@ abline(0,1)
 *  Keep vials fresh, 21 max days for vial age
 	*  This is to prevent mites: 2 miticides are sodium benzoate & probenoic acid
 
+**What is DSPR (Drosophila Synthetic Population Resource)?**
+
+* Drosophila melanogaster
+	* 1700 recombinant inbred lines (RILs)
+		* originates from 2 highly recombined synthetic populations
+			* derived from set of 8 inbred samples
+			* Share the A8 line
+				* crossed in a "round robin" mating scheme
+	* Genotyped ~10K SNPs
+	* makes it easier to link genotype to phenotype since the entire genome only needs to be sequenced for the RIL and then look for SNPs for phenotypic differences. 
 
 **Stock flies we are allowed to use**
 
@@ -991,6 +1002,10 @@ Knockdown: on back, inactivity for 5-10 sec
 <div id='id-section20'/>
 
 ### Page 20: 2018-06-14 Protocol for Static at 38ºC & ECB diet notes
+
+*Changed setup: using plastic test tube rack now*
+*Not using the screw caps anymore, just use cotton and a 1x1 inch parafilm tightly wrapped around the opening*
+
 Protocol for Static at 38ºC
 
 Lines used: C1, C2, H1, H2 (2018-05-28)
@@ -1040,13 +1055,72 @@ Knockdown: on back, inactivity for 5-10 sec
 
 <div id='id-section21'/>
 
-### Page 21:
+### Page 21: 2018-06-15 Practice HS at 38.5ºC & tasks update
+
+Protocol for Static at 38.5ºC
+
+Lines used: C1, C2, H1, H2 (2018-06-05)
+
+Knockdown: on back, inactivity for 5-10 sec
+
+| Position   | Line | Time (M:S) | Sex 		|
+| --- | ---- | ---------  | ------|
+| 1  | C2  	|  24:33 	 	 | Female	|
+| 2  | H1 	|  11:36		 | Female  |
+| 3  | C1   |  06:27		 | Female	|
+| 4  | H2 	|  30:36   	 	 | Female|
+| 5  | H1   |  16:32    	 |  Female	|
+| 6  | C1 	|  11:05  		 | Male	|
+| 7  | C2   |  06:47  		 |  Female	|
+| 8  | H2 	|  28:16  		 |  Male	|
+| 9  | C1   |  15:22  	 	 |  Male	|
+| 10 | C2 	|  25:19  		 |  Male 	|
+| 11 | H1   |  21:26  		 |  Male	|
+| 12 | C2 	|  07:29  		 | Female	|
+| 13 | H1   |  17:33  	 	 |  Female 	|
+| 14 | H2   |  08:48  		 | Female	|
+
+**Tasks already completed**
+- [X] Rhagoletis code 
+- [X] Calibrated thermocouplers
+- [X] Typed up thermocoupler calibration protocol and uploaded to Hahn lab protocols
+- [X] Set up ECB UZ cage
+- [X] Created ECB repository with master data sheet & workflow
+- [X] Practice Heat Shocks at 37ºC, 38ºC, 38.5ºC, and 39ºC
+- [X] Looked up ECB adult diet
+
+**To complete**
+- [ ] Slow ramp practice HS
+- [ ] Figure out new fast ramp protocol
+- [ ] Finish writing protocol for thermal assays
+- [ ] Set up ECB rearing
+- [ ] Create figures in R with static HS data
+- [ ] Organize drosophila protocols
 
 ------
 
 <div id='id-section22'/>
 
-### Page 22:
+### Page 22: 2018-06-18 Plan for this week 
+
+<u>Monday</u>
+* Check up on ECB
+* Fast Ramp Correction
+
+<u>Tuesday</u>
+* Check up on ECB
+* Fast Ramp Correction
+* Slow Ramp Practice HS
+
+<u>Wednesday</u>
+* 37.5ºC Static HS
+* Work on protocols
+
+<u>Thursday</u>
+* Work on plots for KD time
+* Fast Ramp Correction
+
+<u>Friday</u>
 
 ------
 
