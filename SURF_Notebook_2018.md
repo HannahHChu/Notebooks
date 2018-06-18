@@ -1106,6 +1106,8 @@ Knockdown: on back, inactivity for 5-10 sec
 <u>Monday</u>
 * Check up on ECB
 * Fast Ramp Correction
+* Update thermal assay protocol
+* Lab meeting
 
 <u>Tuesday</u>
 * Check up on ECB
