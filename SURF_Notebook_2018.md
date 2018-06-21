@@ -10,7 +10,7 @@
 * Summer Undergraduate Research at Florida (SURF) Program
 	*  Rhagoletis Viability Selection Project
 	*  Proteostasis Project
-	*  ECB Project Set up
+	*  ECB Biological Rhythms Project
 
 # Table of contents
 * [Page 1:   2018-05-29](#id-section1). First Day, tasks, and potential summer projects
@@ -33,11 +33,11 @@
 * [Page 18: 2018-096-13  ](#id-section18). Practice Heat Shock at 37ºC
 * [Page 19: 2018-06-14  ](#id-section19). Protists Project Notes
 * [Page 20: 2018-06-14 ](#id-section20). Practice Heat Shock at 38ºC & ECB diet notes
-* [Page 21: 2018-06-15 ](#id-section21).  Practice Heat Shock at 38ºC & tasks update
+* [Page 21: 2018-06-15 ](#id-section21).  Practice Heat Shock at 38.5ºC & tasks update
 * [Page 22: 2018-06-18 ](#id-section22). Plan for this week
-* [Page 23:  ](#id-section23).
-* [Page 24:  ](#id-section24).
-* [Page 25:  ](#id-section25).
+* [Page 23: 2018-06-19 ](#id-section23).  Fast Ramp Practice HS
+* [Page 24: 2018-06-20 ](#id-section24). 37.5ºC Practice Static HS and Slow Ramp Practice HS
+* [Page 25: 2018-06-21 ](#id-section25). Slow Ramp - redo, today's tasks
 * [Page 26:  ](#id-section26).
 * [Page 27:  ](#id-section27).
 * [Page 28:  ](#id-section28).
@@ -969,7 +969,7 @@ Knockdown: on back, inactivity for 5-10 sec
 | 1  | C2  	|  34:54  	 	 | Male, fell over at 29:13	|
 | 2  | C1 	|  87:22		 | Male, twitched for a long time   |
 | 3  | H2   |  95:41		 |  Female	|
-| 4  | H2 	|  94:19   	 	 | Female |
+| 4  | H2 	|  94:19   	 	 | Female 	|
 | 5  | C1   |  06:03    	 |  Female	|
 | 6  | C1 	|  92:51  		 |  Male	|
 | 7  | H1   |  79:30  		 |  Female	|
@@ -1091,10 +1091,10 @@ Knockdown: on back, inactivity for 5-10 sec
 
 **To complete**
 - [ ] Slow ramp practice HS
-- [ ] Figure out new fast ramp protocol
+- [x] Figure out new fast ramp protocol
 - [ ] Finish writing protocol for thermal assays
 - [ ] Set up ECB rearing
-- [ ] Create figures in R with static HS data
+- [X] Create figures in R with static HS data
 - [ ] Organize drosophila protocols
 
 ------
@@ -1104,43 +1104,191 @@ Knockdown: on back, inactivity for 5-10 sec
 ### Page 22: 2018-06-18 Plan for this week 
 
 <u>Monday</u>
-* Check up on ECB
-* Fast Ramp Correction
-* Update thermal assay protocol
-* Lab meeting
+* Check up on ECB √
+* Fast Ramp Correction √
+* Update thermal assay protocol √
+* Lab meeting (3:30) √
 
 <u>Tuesday</u>
-* Check up on ECB
-* Fast Ramp Correction
-* Slow Ramp Practice HS
+* Check up on ECB √
+* Fast Ramp Practice HS √
+* Rhagoletis meeting (12:00) √
 
 <u>Wednesday</u>
 * 37.5ºC Static HS
-* Work on protocols
+* Slow Ramp Practice HS
 
 <u>Thursday</u>
 * Work on plots for KD time
-* Fast Ramp Correction
+* Work on protocols
 
 <u>Friday</u>
+* Empty water bath & clean
+* Drosophila rearing w/ Tatiana 
+* Work on plots for KD time
+
+
+**Test Fast Ramp (New) for calibrated Thermocoupler**
+
+| Temp (ºC) | Time (min) | Tol (ºC) | Pump |
+| -- 		 | --------- |  ------ | ------- |
+| 25  		 |   5		 | 0 | 2 |
+| 26  		 | 1  | 0 | 2 |
+| 27  		 | 1  | 0 | 2 |
+| 28  		 | 1  | 0 | 2 |
+| 29  		 | 1  | 0 | 2 |
+| 30  		 | 1  | 0 | 2 |
+| 31  		 | 1  | 0 | 2 |
+| 32  		 | 1  | 0 | 2 |
+| 33  		 | 1  | 0 | 2 |
+| 34		 | 1  | 0 | 2 |
+| 35 		 | 1  | 0 | 2 |
+| 36.5 		 | 1  | 0 | 2 |
+| 37.5 		 | 1  | 0 | 2 |
+| 38.5 		 | 1  | 0 | 2 |
+| 40 		 | 60 | 0 | 2 |
+
+
+| Time (min) | Temp (ºC) |
+| -- 		 | --------- |
+| 1  		 | 24.9  |
+| 2  		 | 24.9  |
+| 3  		 | 24.9  |
+| 4  		 | 24.9  |
+| 5  		 | 24.9  |
+| 6  		 | 25.1  |
+| 7  		 | 25.9  |
+| 8  		 | 26.9  |
+| 9  		 | 28.0  |
+| 10		 | 28.9  |
+| 11 		 | 29.9  |
+| 12 		 | 31.1  |
+| 13 		 | 32.2  |
+| 14 		 | 33.2  |
+| 15 		 | 34.1  |
+| 16 		 | 35.0  |
+| 17 		 | 35.9  |
+| 18 		 | 37.0  |
+| 18 		 | 38.0  |
+| 20 		 | 38.9  |
+| 21 		 | 40.0  |
 
 ------
 
 <div id='id-section23'/>
 
-### Page 23:
+### Page 23: 2018-06-19 Fast Ramp Practice HS
+
+- [X] Fast ramp practice HS
+- [X] Shadowed Tatiana for drosophila rearing 
+- [X] Rhagoletis meeting 
+
+**Fast Ramp Practice HS**
+Protocol: refer to [pg 22](#id-section22)
+
+Lines: C1, C2, H1, H2 (2018-06-05)
+
+*Note: Used aspirator to transfer flies, not CO2*
+
+| Position   | Line | Time (M:S) | Temperature (ºC)|  Sex 		|
+| --- | ---- | ---------  | ------ | -------------- |
+| 1  | H2  	|  39:11 	 	 | 39.1 |  Male	|
+| 2  | H1 	|  39:22		 | 39.1 |  Male  |
+|  3  | H2   |  48:32		 | 39.3 |  Male	|
+| 4  | C2 	|  32:02   	 	 | 38.9 |  Female|
+| 5  | C1   |  31:30    	 | 38.9 |  Male	|
+| 6  | H1 	|  31:42  		 | 38.9 |  Male	|
+| 7  | C1   |  36:55  		 | 39.0 |  Male	|
+|  8  | H2 	|  20:37  		 | 38.5 |  Male	|
+|  9  | C2   |  37:34  	 	 | 39.0 | Male	|
+|  10 | H1 	|  46:29  		 | 39.3 | Female 	|
+|  11 | C1   |  34:02  		 | 38.9 | Male	|
+|  12 | C2 	|  41:50  		 | 39.1 | Female	|
+|  13 | H1   |  40:37  	 	 | 39.1 | Female 	|
+|  14 | C1   |  38:48  		 | 39.1 |Female	|
 
 ------
 
 <div id='id-section24'/>
 
-### Page 24:
+### Page 24: 2018-06-20 37.5ºC Practice Static HS and Slow Ramp Practice HS
+
+Protocol: 37.5ºC
+
+Lines: C1, C2, H1, H2 (2018-06-05)
+
+* Note: Used aspirator to transfer flies, not CO2
+
+| Position   | Line | Time (M:S) |  Sex |
+| --- | ---- | --------- | -------------- |
+| 1  | H1  	|  33:55 	 |  Male	|
+| 2  | C1 	|  54:47	 |  Female  |
+| 3  | H2   |  71:48	 |  Male	|
+| 4  | C1 	|  78:52   	 |  Female	|
+| 5  | C2   |  80:24     |  Female	|
+| 6  | C1 	|  74:30  	 |  Male	|
+| 7  | H2   |  32:24  	 |  Female	|
+| 8  | C2 	|  44:10  	 |  Male	|
+| 9  | H1   |  72:15     | Female	|
+| 10 | C1 	|  16:38     | Female 	|
+| 11 | H1   |  77:55  	 | Male	 	|
+| 12 | H2 	|  79:05  	 | Female	|
+| 13 | C2   |  53:30  	 | Male 	|
+| 14 | H2   |  30:49  	 | Female	|
+
+
+
+Protocol: Slow Ramp (0.1ºC/min from 25ºC-39.5ºC)
+
+Lines: C1, C2, H1, H2 (2018-06-05)
+
+*Note: Used aspirator to transfer flies, not CO2*
+
+| Position   | Line | Time (M:S) | Temperature (ºC)|  Sex 		|
+| --- | ---- | ---------  | ------ | -------------- |
+| 1  | C2  	|  160:27 	 	 | 39.5 |  Male	|
+| 2  | H1 	|  147:20		 | 38.9 |  Female  |
+|  3  | H2  |  151:30		 | 39.3 |  Female	|
+| 4  | H1 	|  160:48   	 | 39.5 |  Female|
+| 5  | C1   |  158:58    	 | 39.2 |  Male	|
+| 6  | C2 	|  152:10  		 | 39.3 |  Male	|
+| 7  | C1   |  161:14  		 | 39.5 |  Female	|
+|  8  | H1 	|  161:14  		 | 39.5 |  Female	|
+|  9  | C2  |  150:42  	 	 | 39.3 | Female	|
+|  10 | H2 	|  157:57  		 | 39.2 | Male 	|
+|  11 | C1  |  159:46  		 | 39.4 | Female	|
+|  12 | H2 	|  161:14  		 | 39.5 | Male	|
+|  13 | C2  |  101:10  	 	 | 34.4 | Male 	|
+|  14 | H2  |  161:14  		 | 39.5 | Male	|
 
 ------
 
 <div id='id-section25'/>
 
-### Page 25:
+### Page 25: 2018-06-21 Slow Ramp - redo, today's tasks
+
+Protocol: Slow Ramp (0.1ºC/min from 25ºC-38.5ºC)
+
+Lines: C1, C2, H1, H2 (2018-06-12)
+
+*Note: Used aspirator to transfer flies, not CO2*
+
+| Position   | Line | Time (M:S) | Temperature (ºC)|  Sex 		|
+| --- | ---- | ---------  | ------ | -------------- |
+| 1  | C2  	|  160:27 	 	 | 39.5 |  Male	|
+| 2  | H1 	|  147:20		 | 38.9 |  Female  |
+|  3  | H2  |  151:30		 | 39.3 |  Male	|
+| 4  | C2 	|  160:48   	 | 39.5 |  Female|
+| 5  | C1   |  158:58    	 | 39.2 |  Male	|
+| 6  | H1 	|  152:10  		 | 39.3 |  Male	|
+| 7  | H2   |  161:14  		 | 39.5 |  Female	|
+|  8  | C2 	|  161:14  		 | 39.5 |  Female	|
+|  9  | C1  |  150:42  	 	 | 39.3 | Female	|
+|  10 | H2 	|  157:57  		 | 39.2 | Female 	|
+|  11 | H1  |  159:46  		 | 39.4 | Male	|
+|  12 | C1 	|  161:14  		 | 39.5 | Male	|
+|  13 | C2  |  101:10  	 	 | 34.4 | Male 	|
+|  14 | H2  |  161:14  		 | 39.5 | Male	|
 
 ------
 
