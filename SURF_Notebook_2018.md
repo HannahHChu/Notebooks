@@ -1292,10 +1292,13 @@ Lines: C1, C2, H1, H2 (2018-06-12)
 
 Changed fast and slow ramp protocol to end at 38.5ºC. When the temperature went over 38.5ºC, the flies knocked down around the same time. 
 
-Made KD plots in R
+**Made KD plots in R**
+
 ![lines](https://github.com/HannahHChu/Notebooks/blob/master/Images/KDplot.jpeg)
 
 Doesn't look linear. Looks like the range narrows as the temperature gets higher (or as flies reach their upper thermal limit).
+
+The rest of the plots can be found [here](https://github.com/HannahHChu/Proteome_stability_project/blob/master/2018-06-15_practiceHS.pdf)
 
 ------
 
