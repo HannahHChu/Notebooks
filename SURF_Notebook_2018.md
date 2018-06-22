@@ -1115,17 +1115,17 @@ Knockdown: on back, inactivity for 5-10 sec
 * Rhagoletis meeting (12:00) √
 
 <u>Wednesday</u>
-* 37.5ºC Static HS
-* Slow Ramp Practice HS
+* 37.5ºC Static HS√
+* Slow Ramp Practice HS√
 
 <u>Thursday</u>
-* Work on plots for KD time
-* Work on protocols
+* Work on plots for KD time√
+* Work on protocols√
 
 <u>Friday</u>
-* Empty water bath & clean
+* Empty water bath & clean√
 * Drosophila rearing w/ Tatiana 
-* Work on plots for KD time
+* Work on plots for KD time√
 
 
 **Test Fast Ramp (New) for calibrated Thermocoupler**
