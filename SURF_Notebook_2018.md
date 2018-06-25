@@ -38,7 +38,7 @@
 * [Page 23: 2018-06-19 ](#id-section23).  Fast Ramp Practice HS
 * [Page 24: 2018-06-20 ](#id-section24). 37.5ºC Practice Static HS and Slow Ramp Practice HS
 * [Page 25: 2018-06-21 ](#id-section25). Slow Ramp - redo, today's tasks
-* [Page 26:  ](#id-section26).
+* [Page 26: 2018-06-22 ](#id-section26). Gilchrist Papers on Drosophila HS
 * [Page 27:  ](#id-section27).
 * [Page 28:  ](#id-section28).
 * [Page 29:  ](#id-section29).
@@ -1304,7 +1304,87 @@ The rest of the plots can be found [here](https://github.com/HannahHChu/Proteome
 
 <div id='id-section26'/>
 
-### Page 26:
+### Page 26: 2018-06-22 Gilchrist Papers on Drosophila HS
+
+*Critical thermal maxima in knockdown-selected Drosophila: are thermal endpoints correlated?* (Folk, Hoekstra, and Gilchrist 2007)
+
+<u>Summary:</u>
+
+* the authors compared/explored whether KD time & CTmax is correlated
+* they looked at the correlation between locomotor function and spiracular control
+* High KD line would KD at ~40ºC; Low KD line would KD at ~35ºC
+* analyzed/measured:
+	*  CO2 output during a ramp 
+	*  activity using AD-1 activity detector
+
+<u>Hypothesis:</u>
+
+* Selection for high KD causes upward shift in CTmax --> high KD time causes a higher thermal tolerance
+
+<u>Results:</u>
+
+* (Fig. 3) LN CTmax has narrower range for both spiracular control & locomotor function
+* Locomotor function is predictive of spiracular control for HN and CN lines only
+* when the temperature rises, LN flies tend to fall in the apparatus, HN flies stay long the top as the temperature rises. 
+
+<u>Discussion:</u>
+
+* KD time is not correlated to CTmax
+* CTmax end equivalent in locomotor function and spiracular function
+* Flies selected for lower KD temp have lower metabolic thermal sensitivity
+* Propose: 
+	* upper and lower modes of KD may represent different traits
+	* selection for low KD time may be targeting for behavior
+
+*Selection on knockdown performance in Drosophila melanogaster impacts thermotolerance and heat-shock response differently in females and males* ( Folk,  Zwollo, Rand, and Gilchrist 2006)
+
+**Note**
+*HSC70 is a molecular chaperone that binds to unfolded & otherwise impaired proteins & returns them to their native conformation OR assists by ubiquitination.*
+
+*A decrease in HSC70 during heat stress may be linked to HSP70 induction regulation which is controlled post-translationally by HSF1 (heat shock transcription factor)*
+
+*When non-stressed, HSF1 is a monomer; but post-stress, HSF1 trimers form and translocate to the nucleus, binding to HSE (heat shock elements) on the HSP70 promotor region. This activates transcription.* 
+
+*HSP70 & HSC70 are neg. feedback regulators of HSP70 transcription by binding to HSF1 & lessens HS response.*
+
+
+* High KD line would KD at ~40ºC; Low KD line would KD at ~35ºC
+* Relationship b/w basal and inducible thermotolerance depend on the methods used to measure and test 
+
+<u>Purpose:</u>
+
+* KD lines provide useful model of adaptationto thermal stress -> locomotor performance at high temp for high KD time is supported by HS response modifications
+
+<u>Predict:</u>
+
+* High KD time vs Low KD time lines (male & female)
+	* higher constitutive levels of HSC70
+	* temp set-point for HSP70 is > 36ºC
+	* pretreatment will improve low KD time (only)  for thermal stress capacity
+	* inducible thermotolerance only evident in low KD time
+
+<u>Results:</u>
+
+* only pretreated LN females had an increase in KD time (pretreatment) induces HSP70
+* M&F HN dropped KD time after pretreatment dropped over 2ºC (maybe bc of accumulated degrees?)
+	* explanation: may be facing "strong energetic challenges" which increases MR
+	* metabolic tradeoffs perturb cellular processes fundamental to HN lines
+
+<u>Hypothesis was incorrect:</u>
+
+* Differences in HSC70 only evident between sexes -- most likely bc femailes have higher HSC70 levels from  ovaries and embryonic tissues that are enriched w/ HSC70
+* "At stressful temp in D. melanogaster, protein synthesis is repressed, but HSC70 exhibits translational thermotolerance & continues to be synthesized" (Palter et al 1986) 
+
+<u>Propose:</u>
+
+* LN females had greater decline in HSC70 than HN females bc in LN, HSC70 degradation occurs at a higher rate
+	* What if LN females don't produce or have as much HSC70 in the first place?
+* Another hypothesis is that HSP70 induction occurs earlier in HN females. 
+
+**To Do**
+- [X] Polish up [KD plots in R](https://github.com/HannahHChu/Proteome_stability_project/blob/master/2018-06-15_practiceHS.pdf).
+- [X] Clean water bath
+- [X] Flip DSPR flies 
 
 ------
 
