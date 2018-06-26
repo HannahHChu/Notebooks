@@ -39,8 +39,8 @@
 * [Page 24: 2018-06-20 ](#id-section24). 37.5ºC Practice Static HS and Slow Ramp Practice HS
 * [Page 25: 2018-06-21 ](#id-section25). Slow Ramp - redo, today's tasks
 * [Page 26: 2018-06-22 ](#id-section26). Gilchrist Papers on Drosophila HS
-* [Page 27:  ](#id-section27).
-* [Page 28:  ](#id-section28).
+* [Page 27: 2018-06-25  ](#id-section27). Cohort Setup for thermal assays
+* [Page 28: 2018-06-26 ](#id-section28). Hardening Heat Shock Test
 * [Page 29:  ](#id-section29).
 * [Page 30:  ](#id-section30).
 * [Page 31:  ](#id-section31).
@@ -1463,7 +1463,7 @@ Keep 3 rearing vials and 1 "fresh" vial for replicates
 
 <div id='id-section28'/>
 
-### Page 28: 2018-06-26 Hardening Test Ramp
+### Page 28: 2018-06-26 Hardening Practice Heat Shock 
 
 **To Do**
 
