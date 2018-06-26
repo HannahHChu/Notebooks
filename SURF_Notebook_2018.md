@@ -821,13 +821,13 @@ abline(0,1)
 3. Viability selection coding proj:
 	* Fixing pdf output to make it more presentable; send to ANBE by Wednesday √
 	* Create a direction of effect table to make sense of the data. √
-	* Show Dr. Hahn Friday. 
+	* Show Dr. Hahn Friday. √
 
 4. Calibration water bath
 	* try calibration from 35-40C range. √
 	* write up technical report in Rmarkdown √
-	* clean water bath, it is cloudy. Dr. Hahn suggests to put some ethanol in it. (also leave it open so it doesn't get as cloudy)
-	* make a new rack, have tubes that can be inserted into the styrofoam for better handling
+	* clean water bath, it is cloudy. Dr. Hahn suggests to put some ethanol in it. (also leave it open so it doesn't get as cloudy) √
+	* make a new rack, have tubes that can be inserted into the styrofoam for better handling √
 
 ------
 
@@ -1390,13 +1390,85 @@ The rest of the plots can be found [here](https://github.com/HannahHChu/Proteome
 
 <div id='id-section27'/>
 
-### Page 27:
+### Page 27: 2018-06-25 Cohort Setup for thermal assays
+
+**Model**
+
+* Drosophila melanogaster
+* Mated
+* 10 cohorts
+* 520 individuals
+    * 260 male
+    * 260 female
+
+**Workflow**
+
+![Workflow](https://github.com/HannahHChu/Proteome_stability_project/blob/master/2018-06-25_workflow.png)
+
+* One cohort per day
+* 4 different treatments per day for all 13 lines
+* 50/50 male and female based on cohort, strain, and treatment
+* Position, sex, and treatment all randomized
+
+```{r}
+library(DiagrammeR)
+mermaid("
+  graph TD
+  A[Cohort Days]--> B[Slow Ramp]
+  A --> C[Fast Ramp]
+  A --> D[Hardening]
+  A --> E[Static]
+  B --> F[13 lines]
+  C --> G[13 lines]
+  D --> H[13 lines]
+  E --> I[13 lines]
+  F --> J[Female]
+  G --> K[Female]
+  H --> L[Female]
+  I --> M[Female]
+  F --> N[Male]
+  G --> O[Male]
+  H --> P[Male]
+  I --> Q[Male]")
+```
+
+**Cohort Setup**
+Keep 3 rearing vials and 1 "fresh" vial for replicates
+
+* 1 old vial (backup)
+* 1 middle vial (backup)
+* 1 new vial (backup)
+* 1 exp. vial
+    * dump the adults and wait for newly eclosed adults
+    * flip newly eclosed adults into fresh vial consecutive days
+    * keep fresh vials for 5 days before using for tests
+
+**Measure**
+
+1. Knockdown times
+    * based on [thermal assay protocol here](https://adnguyen.github.io/Hahn_lab_protocols/2018-06-14_HC_Thermal_Hardiness_Assays_in_D_melanogaster.html)
+2. Survivorship
+    * after flies knockdown, move them into 5mL plastic tubes with food
+    * monitor every day for individual fly death
+
+**To Do**
+- [X] Organize drosophila data sheet
+- [X] Write out [drosophila protocol](https://adnguyen.github.io/Hahn_lab_protocols/2018-06-26_HC_drosophila_SOP.html)
+- [X] Make drosophila food
+- [X] Write up [cohort setup](https://github.com/HannahHChu/Proteome_stability_project/blob/master/Script/2018-06-25_cohort_setup.pdf)
+
+
 
 ------
 
 <div id='id-section28'/>
 
-### Page 28:
+### Page 28: 2018-06-26 Hardening Test Ramp
+
+**To Do**
+
+- [X] Write out [drosophila protocol](https://adnguyen.github.io/Hahn_lab_protocols/2018-06-26_HC_drosophila_SOP.html)
+- [X] Hardening Test Ramp
 
 ------
 
