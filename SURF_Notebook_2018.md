@@ -40,8 +40,8 @@
 * [Page 25: 2018-06-21 ](#id-section25). Slow Ramp - redo, today's tasks
 * [Page 26: 2018-06-22 ](#id-section26). Gilchrist Papers on Drosophila HS
 * [Page 27: 2018-06-25  ](#id-section27). Cohort Setup for thermal assays
-* [Page 28: 2018-06-26 ](#id-section28). Hardening Heat Shock Test
-* [Page 29:  ](#id-section29).
+* [Page 28: 2018-06-26 ](#id-section28). DSPR Drosophila Flipping Schedule 
+* [Page 29: 2018-06-27 ](#id-section29). Hardening Heat Shock Test
 * [Page 30:  ](#id-section30).
 * [Page 31:  ](#id-section31).
 * [Page 32:  ](#id-section32).
@@ -1453,7 +1453,6 @@ Keep 3 rearing vials and 1 "fresh" vial for replicates
 
 **To Do**
 - [X] Organize drosophila data sheet
-- [X] Write out [drosophila protocol](https://adnguyen.github.io/Hahn_lab_protocols/2018-06-26_HC_drosophila_SOP.html)
 - [X] Make drosophila food
 - [X] Write up [cohort setup](https://github.com/HannahHChu/Proteome_stability_project/blob/master/Script/2018-06-25_cohort_setup.pdf)
 
@@ -1463,18 +1462,69 @@ Keep 3 rearing vials and 1 "fresh" vial for replicates
 
 <div id='id-section28'/>
 
-### Page 28: 2018-06-26 Hardening Practice Heat Shock 
+### Page 28: 2018-06-26 DSPR Drosophila Flipping Schedule 
+
+| Cohort 	 |	   Flip Date | Test Date   |
+| ---------  | ------------  | ------------|
+|     1 	 |	 2018-06-27  |  2018-07-01 |
+|     -- 	 |	 2018-06-28  |  2018-07-02 |
+|     2 	 |	 2018-06-29  |  2018-07-03 |
+|     3 	 |	 2018-06-30  |  2018-07-04 |
+|     4 	 |	 2018-07-01  |  2018-07-05 |
+|     5 	 |	 2018-07-02  |  2018-07-06 |
+|     -- 	 |	 2018-07-03  |  2018-07-07 |
+|     -- 	 |	 2018-07-04  |  2018-07-08 |
+|     6 	 |	 2018-07-05  |  2018-07-09 |
+|     7 	 |	 2018-07-06  |  2018-07-10 |
+|     -- 	 |	 2018-07-07  |  2018-07-11 |
+|     8 	 |	 2018-07-08  |  2018-07-12 |
+|     9 	 |	 2018-07-09  |  2018-07-13 |
+|     -- 	 |	 2018-07-10  |  2018-07-14 |
+|     10 	 |	 2018-07-11  |  2018-07-15 |
+|     -- 	 |	 2018-07-12  |  2018-07-16 |
+|     -- 	 |	 2018-07-13  |  2018-07-17 |
+|     -- 	 |	 2018-07-14  |  2018-07-18 |
+
+
+Individual ID labels for flies: cohort, position, strain, treatment
+*Ex: 2p3B2FR = cohort day 2, position 3, line B2, Fast Ramp*
 
 **To Do**
 
 - [X] Write out [drosophila protocol](https://adnguyen.github.io/Hahn_lab_protocols/2018-06-26_HC_drosophila_SOP.html)
-- [X] Hardening Test Ramp
+- [ ] Hardening Test Ramp
 
 ------
 
 <div id='id-section29'/>
 
-### Page 29:
+### Page 29: 2018-06-27 Hardening Heat Shock Test
+
+| Position   | Line | Time (M:S) | Temperature (ºC)|  Sex 		|
+| --- | ---- | ---------  | ------ | -------------- |
+| 1  | H1  	|  148:02 	 	 | 40.0 |  Female	|
+| 2  | C1 	|  147:48		 | 40.0 |  Female  |
+|  3  | C2  |  146:42		 | 40.0 |  Male	|
+| 4  | C1 	|  146:30   	 | 40.0 |  Male|
+| 5  | H2   |  146:02    	 | 40.0 |  Male	|
+| 6  | C2 	|  145:31  		 | 40.0 |  Female	|
+| 7  | H2   |  151:58  		 | 40.0 |  Female	|
+|  8  | H1 	|  151:18  		 | 40.0 |  Female	|
+|  9  | C1  |  146:17  	 	 | 40.0 | Male	|
+|  10 | H2 	|  148:37  		 | 40.0 | Male 	|
+|  11 | C2  |  150:50  		 | 40.0 | Male	|
+|  12 | H1 	|  150:09  		 | 40.0 | Female	|
+|  13 | C2  |  139:06  	 	 | 35.9 | Male 	|
+|  14 | H2  |  152:04  		 | 40.0 | Male	|
+
+Measuring survivorship rationale:
+
+
+
+**To Do**
+
+- [ ] Protein practice
+- [ ] Hardening Test Ramp
 
 ------
 
