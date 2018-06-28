@@ -41,8 +41,8 @@
 * [Page 26: 2018-06-22 ](#id-section26). Gilchrist Papers on Drosophila HS
 * [Page 27: 2018-06-25  ](#id-section27). Cohort Setup for thermal assays
 * [Page 28: 2018-06-26 ](#id-section28). DSPR Drosophila Flipping Schedule 
-* [Page 29: 2018-06-27 ](#id-section29). Hardening Heat Shock Test
-* [Page 30:  ](#id-section30).
+* [Page 29: 2018-06-27 ](#id-section29). Hardening Heat Shock Test & Protein Quant Test
+* [Page 30: 2018-06-28 ](#id-section30). Protein Isolation II & Freezer box
 * [Page 31:  ](#id-section31).
 * [Page 32:  ](#id-section32).
 * [Page 33:  ](#id-section33).
@@ -1498,7 +1498,12 @@ Individual ID labels for flies: cohort, position, strain, treatment
 
 <div id='id-section29'/>
 
-### Page 29: 2018-06-27 Hardening Heat Shock Test
+### Page 29: 2018-06-27 Hardening Heat Shock Test & BSA Protein Quant
+
+**Hardening Practice HS**
+
+Protocol: 5 min 25ºC, 60min 36ºC, 60min 25ºC, and 60min 40ºC
+Lines: C1, C2, H1, H2 (2018-06-12)
 
 | Position   | Line | Time (M:S) | Temperature (ºC)|  Sex 		|
 | --- | ---- | ---------  | ------ | -------------- |
@@ -1517,20 +1522,84 @@ Individual ID labels for flies: cohort, position, strain, treatment
 |  13 | C2  |  139:06  	 	 | 35.9 | Male 	|
 |  14 | H2  |  152:04  		 | 40.0 | Male	|
 
-Measuring survivorship rationale:
+**Making Lysis Buffer**
+
+* [10x PBS (Fisher BioReagents BP399-500)](https://www.fishersci.com/shop/products/phosphate-buffered-saline-10x-solution-fisher-bioreagents-poly-bottle-500ml/bp399500)
+* [100x Halt Protease Inhibitor (ThermoFisher 78430)](https://www.thermofisher.com/order/catalog/product/78430)
+* [Triton X-100 (ACROS 21568-2500)](https://www.fishersci.com/shop/products/triton-x-100-acros-organics-4/p-3759154)
+* [Zirconia beads 10mm ø (Biospec 11079110ZX)](https://biospec.com/product/zirconia-beads)
+
+__Final Solution__
+
+| Reagent | Initial Conc. | Final Conc. | add |
+| ---- | --- | --- | --- |
+| PBS | 10x | 1x | --- |
+| EDTA | 0.5 M | 10mM | 1mL |
+| Triton X-100 | 100% | 1% | 500uL |
+
+**BCA Assay**
+Find protocol [here](https://www.thermofisher.com/order/catalog/product/23225)
+Used 5, 10, and 20 flies
+
+__Calculation for total volume of Working Reagent (WR) 50:1 ratio of Reagent A:B__ 
+	(# Standards + # unknowns) * (# replicates) * (WR volume/sample) = total WR needed
 
 
+__Results__ 
+
+	'''{r}
+	meas <- c(2.173, 0.996, 0.591, 0.432, 0.130)
+	stdd <- c(2, 1, .5, 0.25, 0)
+	samp <- c(0.866, 1.847, 1.958)
+	mod<- lm(stdd ~ meas)
+	summary(mod)
+	plot(meas, stdd)
+	abline(mod)
+	predict(mod, samp)
+	y = 0.98941*(samp)-0.10524
+	.75*400
+	'''
+
+Concentrations for 5, 10, 20 drosophila respectively
+y = 0.7515891, 1.7222003, 1.8320248
 
 **To Do**
 
-- [ ] Protein practice
-- [ ] Hardening Test Ramp
+- [X] Protein practice
+- [X] Hardening Test Ramp
 
 ------
 
 <div id='id-section30'/>
 
-### Page 30:
+### Page 30: 2018-06-28 Protein Isolation II & Freezer box
+
+**Protein Isolation**
+
+1. Add zirconia beads (pg. 29) to 2mL centrifuge tubes with screw caps. (Add to just above the conical line)
+2. Add 500uL of lysis buffer into tube and place tube on ice. 
+3. Add 5uL 0.5M EDTA and 5uL protease inhibitor (pg. 29) into tube.
+4. Flash freeze flies with liquid nitrogen and add 10 flies to the tube.
+5. Make sure the tubes are balanced and place them into the homogenizer.
+6. Homogenize on protocol "AN"
+	* 1 cycle, 30 sec, 10,000 RPM 
+7. Remember to replace the locking cap onto the homogenizer before turning on.
+8. Centrifuge after homogenizing for 5 min at 4ºC and 10,000RPM.
+9. Transfer supernatant into ultracentrifuge tube. 
+
+**Freezer box for Preliminary Protein Isolation**
+NB reference: SURF NB#001 p86
+Rack 3,  Position 6
+
+| Freezer Pos. | Contents | Date | NB pg |
+| ---- | ---- | ---- | ---- | ---- |
+| 1-1 | 5 drosophila | 2018-06-27 | 83 |
+| 1-2 | 10 drosophila | 2018-06-27 | 83 |
+| 1-3 | 20 drosophila | 2018-06-27 | 83 |
+| 1-4 | 10 drosophila | 2018-06-28 | 86 |
+| 1-5 | 10 drosophila | 2018-06-28 | 86 |
+| 1-6 | 50uL from (1-4)tube | 2018-06-28 | 86 |
+| 1-7 | 50uL from (1-5)tube | 2018-06-28 | 86 |
 
 ------
 
