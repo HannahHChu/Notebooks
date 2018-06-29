@@ -1607,7 +1607,22 @@ Rack 3,  Position 6
 
 <div id='id-section31'/>
 
-### Page 31:
+### Page 31: 2018-06-29 
+
+
+
+**To Do**
+-[X] Prepare for Sunday's cohort 1
+	- get fresh test tubes
+	- label test tubes 1-13
+	- cut more parafilm
+	- get cotton
+-[X] Clean glass tubes
+-[X] Put away drosophila food from yesterday
+-[X] Flip DSPR lines for cohort 2
+-[X] Flip DSPR lines into new vial for maintenence
+
+
 
 ------
 
