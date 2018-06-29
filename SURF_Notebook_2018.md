@@ -30,7 +30,7 @@
 * [Page 15: 2018-06-12  ](#id-section15). Sorting out the coefficients of models for Rhagoletis
 * [Page 16: 2018-06-13 ](#id-section16). ECB Setup Workflow & other tasks
 * [Page 17: 2018-06-13 ](#id-section17). Notes and Data from yesterday's practice HS
-* [Page 18: 2018-096-13  ](#id-section18). Practice Heat Shock at 37ºC
+* [Page 18: 2018-06-13 ](#id-section18). Practice Heat Shock at 37ºC
 * [Page 19: 2018-06-14  ](#id-section19). Protists Project Notes
 * [Page 20: 2018-06-14 ](#id-section20). Practice Heat Shock at 38ºC & ECB diet notes
 * [Page 21: 2018-06-15 ](#id-section21).  Practice Heat Shock at 38.5ºC & tasks update
@@ -43,8 +43,8 @@
 * [Page 28: 2018-06-26 ](#id-section28). DSPR Drosophila Flipping Schedule 
 * [Page 29: 2018-06-27 ](#id-section29). Hardening Heat Shock Test & Protein Quant Test
 * [Page 30: 2018-06-28 ](#id-section30). Protein Isolation II & Freezer box
-* [Page 31:  ](#id-section31).
-* [Page 32:  ](#id-section32).
+* [Page 31: 2018-06-29 ](#id-section31). Flipping DSPR lines, Gioia + Zars 2009 & Jensen et al. 2010 papers, Test static for DSPR
+* [Page 32:  ](#id-section32). 
 * [Page 33:  ](#id-section33).
 * [Page 34:  ](#id-section34).
 * [Page 35:  ](#id-section35).
@@ -1607,8 +1607,67 @@ Rack 3,  Position 6
 
 <div id='id-section31'/>
 
-### Page 31: 2018-06-29 
+### Page 31: 2018-06-29 Flipping DSPR lines, Gioia + Zars 2009 & Jensen et al. 2010 papers, Test static for DSPR
 
+**Thermotolerance and place memory in adult Drosophila are independent of natural variation at the foraging locus** *Gioia & Zars 2009*
+
+foraging gene (*for*) - how are its alleles selected?
+
+*for-r* = *for* rover --> higher locomotor activity in presence of food (wt)
+*for-s* = *for* sitter --> relatively lower locomotor activity in presence of food (wt)
+*for-s2*=*for* sitter2 --> mt strain
+
+for-s seem to be more resistnt to effects of high temperatures
+
+Asking:
+1. Are *for-s* adult flies more thermotolerant?
+2. Do *for-r* flies have higher place memory?
+3. Do *for-s* flies have lower place memory?
+
+Looking at:
+* relationship b/w thermotolerance & memory (foraging behavior)
+
+Know:
+* variation at *for* locus influences memory formaation --> *for-r* has "better" short-term memory
+* *for* locus implicated in high temperture reinforced visual learning in adult flies (Wang et al 2008)
+
+Results:
+* did not find a difference in thermotolerance b/w strains (refer to fig.1)
+* Significant implications:
+
+	1. *for-r* flies do not have a universal advantage over *for-s* flies in short term memory formation
+	2. different requirements of *for* alleles in thermotolerance b/w larvae and adults reveal diff sensitivities -- suggestion that the potential higher thermotolerance in *for-s* flies in larval stages is important to balance the *for-r* learning ability
+	3. Compensatory advantage of *for-s* flies over *for-r* flies is unknown
+
+**Adult Heat Tolerance Variation in Drosophila melanogaster is Not Related to Hsp70 Expression** *Jensen et. al. 2010* 
+
+**Maintenence**
+Flipped 2018-06-26 flies into new vial labeled 2018-06-29
+Vials from 2018-06-26 now contain only eggs and larvae
+
+**Cohort 2**
+Flipped 2018-06-11 & 2018-06-15 newly eclosed flies into cohort 2 vials.
+
+**Test Static HS**
+
+Protocol: 38.5ºC
+Lines: DSPR
+
+| Position   | Line | Time (M:S) |    Sex   |
+| ---------- | ---- | ---------  | -------- |
+| 1 		 | AB8 	|  05:03 	 |  Male	|
+| 2 		 | A5 	|  04:24	 |  Female  |
+| 3 		 | A7   |  15:49	 |  Male	|
+| 4 		 | A2 	|  18:43     |  Male    |
+| 5 		 | B6   |  06:15     |  Male	|
+| 6  		 | B7 	|  01:47  	 |  Male	|
+| 7  		 | B4   |  22:19  	 |  Male	|
+| 8  		 | B3 	|  13:41  	 |  Male	|
+| 9  		 | A3   |  27:23  	 | Male	    |
+|  10 		 | A1 	|  12:05  	 | Female 	|
+|  11 		 | A4   |  20:04  	 | Female	|
+|  12 		 | A6 	|  07:24  	 | Female	|
+|  13 		 | B2   |  07:10  	 | Female 	|
 
 
 **To Do**
