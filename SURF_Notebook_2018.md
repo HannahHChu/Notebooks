@@ -1522,7 +1522,7 @@ Lines: C1, C2, H1, H2 (2018-06-12)
 |  13 | C2  |  139:06  	 	 | 35.9 | Male 	|
 |  14 | H2  |  152:04  		 | 40.0 | Male	|
 
-**Making Lysis Buffer**
+**Making 50mL Lysis Buffer**
 
 * [10x PBS (Fisher BioReagents BP399-500)](https://www.fishersci.com/shop/products/phosphate-buffered-saline-10x-solution-fisher-bioreagents-poly-bottle-500ml/bp399500)
 * [100x Halt Protease Inhibitor (ThermoFisher 78430)](https://www.thermofisher.com/order/catalog/product/78430)
@@ -1538,10 +1538,12 @@ __Final Solution__
 | Triton X-100 | 100% | 1% | 500uL |
 
 **BCA Assay**
+
 Find protocol [here](https://www.thermofisher.com/order/catalog/product/23225)
 Used 5, 10, and 20 flies
 
 __Calculation for total volume of Working Reagent (WR) 50:1 ratio of Reagent A:B__ 
+	
 	(# Standards + # unknowns) * (# replicates) * (WR volume/sample) = total WR needed
 
 
@@ -1592,7 +1594,7 @@ NB reference: SURF NB#001 p86
 Rack 3,  Position 6
 
 | Freezer Pos. | Contents | Date | NB pg |
-| ---- | ---- | ---- | ---- | ---- |
+| ------------ | -------- | ---- | ------ |
 | 1-1 | 5 drosophila | 2018-06-27 | 83 |
 | 1-2 | 10 drosophila | 2018-06-27 | 83 |
 | 1-3 | 20 drosophila | 2018-06-27 | 83 |
