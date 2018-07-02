@@ -44,7 +44,7 @@
 * [Page 29: 2018-06-27 ](#id-section29). Hardening Heat Shock Test & Protein Quant Test
 * [Page 30: 2018-06-28 ](#id-section30). Protein Isolation II & Freezer box
 * [Page 31: 2018-06-29 ](#id-section31). Flipping DSPR lines, Gioia + Zars 2009 & Jensen et al. 2010 papers, Test static for DSPR
-* [Page 32:  ](#id-section32). 
+* [Page 32: 2018-07-01 ](#id-section32). Cohort 1 Tests
 * [Page 33:  ](#id-section33).
 * [Page 34:  ](#id-section34).
 * [Page 35:  ](#id-section35).
@@ -1671,23 +1671,25 @@ Lines: DSPR
 
 
 **To Do**
--[X] Prepare for Sunday's cohort 1
+- [X] Prepare for Sunday's cohort 1
 	- get fresh test tubes
 	- label test tubes 1-13
 	- cut more parafilm
 	- get cotton
--[X] Clean glass tubes
--[X] Put away drosophila food from yesterday
--[X] Flip DSPR lines for cohort 2
--[X] Flip DSPR lines into new vial for maintenence
-
-
+- [X] Clean glass tubes
+- [X] Put away drosophila food from yesterday
+- [X] Flip DSPR lines for cohort 2
+- [X] Flip DSPR lines into new vial for maintenence
 
 ------
 
 <div id='id-section32'/>
 
-### Page 32:
+### Page 32: 2018-07-01 Cohort 1 Tests
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
+
+Made a new freezer box for DSPR cohort flies, found [here](https://github.com/HannahHChu/Proteome_stability_project/blob/master/Data/Storage/2018_storage_minus80_information.xlsx)
 
 ------
 
