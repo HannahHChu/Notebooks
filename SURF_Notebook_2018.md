@@ -45,7 +45,7 @@
 * [Page 30: 2018-06-28 ](#id-section30). Protein Isolation II & Freezer box
 * [Page 31: 2018-06-29 ](#id-section31). Flipping DSPR lines, Gioia + Zars 2009 & Jensen et al. 2010 papers, Test static for DSPR
 * [Page 32: 2018-07-01 ](#id-section32). Cohort 1 Tests
-* [Page 33:  ](#id-section33).
+* [Page 33: 2018-07-02 ](#id-section33). Hardening HS Test with DSPR Lines
 * [Page 34:  ](#id-section34).
 * [Page 35:  ](#id-section35).
 * [Page 36:  ](#id-section36).
@@ -1695,7 +1695,26 @@ Made a new freezer box for DSPR cohort flies, found [here](https://github.com/Ha
 
 <div id='id-section33'/>
 
-### Page 33:
+### Page 33: 2018-07-02 Hardening HS Test DSPR Lines
+
+Protocol: 25ºC 5min; 36ºC 60min; 25ºC 60 min; 38.5ºC 60min
+Lines: DSPR
+
+| Position   | Line | Time (M:S) |    Sex   |
+| ---------- | ---- | ---------  | -------- |
+| 1 		 | A5 	|  05:43 	 |  Female	|
+| 2 		 | AB8 	|  00:37	 |  Male    |
+| 3 		 | B3   |  19:15	 |  Female	|
+| 4 		 | A7 	|  14:40     |  Female  |
+| 5 		 | A1   |  01:34     |  Female	|
+| 6  		 | A3 	|  09:26  	 |  Female	|
+| 7  		 | A4   |  00:00  	 |  Male	|
+| 8  		 | B6 	|  08:22  	 |  Female	|
+| 9  		 | B7   |  00:05  	 | Female   |
+|  10 		 | B2 	|  08:51  	 | Female 	|
+|  11 		 | A6   |  10:02  	 | Female	|
+|  12 		 | B4 	|  18:04  	 | Female	|
+|  13 		 | A2   |  01:03  	 | Male 	|
 
 ------
 
