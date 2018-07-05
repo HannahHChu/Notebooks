@@ -1720,13 +1720,33 @@ Lines: DSPR
 
 <div id='id-section34'/>
 
-### Page 34:
+### Page 34: 2018-07-03 Cohort 2 Tests
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
+
+Graphs of Treatments
+![graphs](https://user-images.githubusercontent.com/26017826/42321923-7c5d1cea-8028-11e8-9e66-c35f8b626dfa.JPG)
+
+Proteome Stability Grpah Expectations
+![nb](https://user-images.githubusercontent.com/26017826/42321924-7c6c3568-8028-11e8-9abb-31007f9cc9f0.JPG)
+
+ECB
+
+* 2018-06-29 separated into 2 containers and placed into 16:8 and 12:12 treatments. 
 
 ------
 
 <div id='id-section35'/>
 
-### Page 35:
+### Page 35: 2018-07-04 Survivorship Check
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
+
+Flipped lines from 2018-06-15 & 2018-06-23 into new vial -- not enough for cohort 4
+
+ECB
+
+* 2018-06-30 separated into 2 containers and placed into 16:8 and 12:12 treatments. 
 
 ------
 
