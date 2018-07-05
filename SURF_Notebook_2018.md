@@ -46,8 +46,8 @@
 * [Page 31: 2018-06-29 ](#id-section31). Flipping DSPR lines, Gioia + Zars 2009 & Jensen et al. 2010 papers, Test static for DSPR
 * [Page 32: 2018-07-01 ](#id-section32). Cohort 1 Tests
 * [Page 33: 2018-07-02 ](#id-section33). Hardening HS Test with DSPR Lines
-* [Page 34:  ](#id-section34).
-* [Page 35:  ](#id-section35).
+* [Page 34: 2018-07-03 ](#id-section34). Cohort 2 Tests
+* [Page 35: 2018-07-04 ](#id-section35). Survivorship Checks
 * [Page 36:  ](#id-section36).
 * [Page 37:  ](#id-section37).
 * [Page 38:  ](#id-section38).
