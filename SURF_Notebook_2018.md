@@ -48,7 +48,7 @@
 * [Page 33: 2018-07-02 ](#id-section33). Hardening HS Test with DSPR Lines
 * [Page 34: 2018-07-03 ](#id-section34). Cohort 2 Tests
 * [Page 35: 2018-07-04 ](#id-section35). Survivorship Checks
-* [Page 36:  ](#id-section36).
+* [Page 36: 2018-07-05 ](#id-section36).  Paper: Adaptation of Enzymes to Temperature (Somero 1968)
 * [Page 37:  ](#id-section37).
 * [Page 38:  ](#id-section38).
 * [Page 39:  ](#id-section39).
@@ -1752,7 +1752,45 @@ ECB
 
 <div id='id-section36'/>
 
-### Page 36:
+### Page 36: 2018-07-05 Paper: Adaptation of Enzymes to Temperature (Somero 1968)
+
+**Adaptation of Enzymes to Temperature** *Hochachka & Somero 1968*
+
+Abstract:
+
+1. LDH (lactate dehydrogenase) affinity Δ w/ temp
+2. Semi-log plots Vmax vs 1/T -> linear
+3. In evolutionary adaptation to temp, enzyme affinity for substrate more sensitive to natural selection than molecular activity.
+
+Hypothesis: Temp plays similar role as positive effector on regulatory enzymes
+
+	* Δ temp promotes compensatory Δ in affinity of enzyme for substrate
+
+Used: 
+
+* LDH isozymes as test sys b/c relative activities depend on acclimation temp of organism
+	* Km --> min level at habitat temp
+
+Found: 
+
+* Above critical temp Km increases w/ increasing temp
+	* temp below critical range Km increases
+* thermal optima (Km values are at a min) fall w/i species physiological temp range
+	* unique LDH thermal optima
+* activation energies do not correlate w/ acclimation history or env. temp
+* enzyme affinity most sensitive to selective pressure
+
+
+**ECB**
+
+* 2018-07-01 separated into 2 containers and placed into 16:8 and 12:12 treatments
+
+**Survivorship Check**
+No deaths
+
+**DSPR**
+Flipped flies 2018-06-15 & 2018-06-23 into cohort 4 vials
+
 
 ------
 
