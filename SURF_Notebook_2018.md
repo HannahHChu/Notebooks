@@ -49,8 +49,8 @@
 * [Page 34: 2018-07-03 ](#id-section34). Cohort 2 Tests
 * [Page 35: 2018-07-04 ](#id-section35). Survivorship Checks
 * [Page 36: 2018-07-05 ](#id-section36).  Paper: Adaptation of Enzymes to Temperature (Somero 1968)
-* [Page 37:  ](#id-section37).
-* [Page 38:  ](#id-section38).
+* [Page 37: 2018-07-06 -- 2018-07-10  ](#id-section37).  Thermal Assays Cohorts 1-5
+* [Page 38: 2018-07-11 ](#id-section38). Plan for the rest of this week
 * [Page 39:  ](#id-section39).
 * [Page 40:  ](#id-section40).
 * [Page 41:  ](#id-section41).
@@ -1764,7 +1764,7 @@ Abstract:
 
 Hypothesis: Temp plays similar role as positive effector on regulatory enzymes
 
-	* Δ temp promotes compensatory Δ in affinity of enzyme for substrate
+* Δ temp promotes compensatory Δ in affinity of enzyme for substrate
 
 Used: 
 
@@ -1786,9 +1786,11 @@ Found:
 * 2018-07-01 separated into 2 containers and placed into 16:8 and 12:12 treatments
 
 **Survivorship Check**
+
 No deaths
 
 **DSPR**
+
 Flipped flies 2018-06-15 & 2018-06-23 into cohort 4 vials
 
 
@@ -1796,13 +1798,25 @@ Flipped flies 2018-06-15 & 2018-06-23 into cohort 4 vials
 
 <div id='id-section37'/>
 
-### Page 37:
+### Page 37: 2018-07-06 -- 2018-07-10 Thermal Assays Cohorts 1-5
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
+
+* Flipping lines every day
+
+
 
 ------
 
 <div id='id-section38'/>
 
-### Page 38:
+### Page 38: 2018-07-11 Plan for the rest of this week
+
+**To Do Today**
+* Flip DSPR lines for Sunday assay
+* Read papers
+* Start script - send to Andrew this weekend
+
 
 ------
 
