@@ -1793,7 +1793,6 @@ No deaths
 
 Flipped flies 2018-06-15 & 2018-06-23 into cohort 4 vials
 
-
 ------
 
 <div id='id-section37'/>
@@ -1817,30 +1816,90 @@ Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteom
 * Read papers
 * Start script - send to Andrew this weekend
 
-
 ------
 
 <div id='id-section39'/>
 
-### Page 39:
+### Page 39: 2018-07-12 Thermal Assay Cohort 6 - Statistical approaches
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
+
+![statpg](https://user-images.githubusercontent.com/26017826/42756307-908d7af8-88c9-11e8-9515-85094b8357df.JPG)
 
 ------
 
 <div id='id-section40'/>
 
-### Page 40:
+### Page 40: 2018-07-13 - 2018-07-15 Thermal Assay Cohort 7-8
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
 
 ------
 
 <div id='id-section41'/>
 
-### Page 41:
+### Page 41: 2018-07-13 YT Video Script draft 1
+
+> Hi, I’m Hannah, 
+>
+> I’m from John Jay College of Criminal Justice in NYC. 
+>
+> This summer, as part of the University of Florida’s Summer Undergraduate Research at Florida program, I was able to study how insects respond to extreme temperatures on a behavioral and molecular level in Dr. Daniel Hahn’s lab in the Dept. of Entomology and Nematology.
+>
+> We wanted to know:
+>
+> How will climate change impact insects?
+>
+> First, you may wonder why insects are important in the first place?
+>
+> Well, not only do they represent 80% of the world’s species, making them the largest group of land animals, insects pollinate our plants, fertilize our soil, produce useful substances (such as honey, wax, and silk), and insects are important food sources for many animals including humans.
+>
+> Studying insects can help us discover more about us and possible ways to cure diseases — fruit flies share about 58% of our genes!
+>
+> In my project, we used fruit flies as models to study their tolerance and response to high temperatures that may be out of their functioning range. With climate change and global warming, temperatures on earth will start to rise much faster than these animals can adapt, and may cause some important cold-blooded animals to become extinct. 
+>
+>  We found that ________ results ________
+
+Notes from Andrew:
+
+- When you ask a question , you should answer it  afterwards. 
+- pose the problem , why is climate change a concern? Walk people through the logic 
+- use the hourglass framework : broad to specific in the beginning. So link climate change to a specific hypothesis. Then specific to broad (results to the big concept you outlined in the beginning ).I realize you don’t have result yet, but it’s good to think ahead . 
+- once you pose the problem , you can provide a solution to a specific gap in knowledge .
+
 
 ------
 
 <div id='id-section42'/>
 
-### Page 42:
+### Page 42: 2018-07-15 YT video script draft 2
+
+> Hi, I’m Hannah, 
+>
+> I’m from John Jay College of Criminal Justice in NYC. 
+>
+> This summer, as part of the University of Florida’s Summer Undergraduate Research at Florida program, I was able to study how insects respond to extreme temperatures on a behavioral and molecular level in Dr. Daniel Hahn’s lab in the Dept. of Entomology and Nematology.
+>
+> We wanted to know:
+>
+> How will climate change impact insects?
+>
+> With climate change causing an increase in global temperatures, vector-borne diseases carried and spread by insects like mosquitoes, fleas, and ticks may reach new regions. These insects might expand their geographic ranges, and spread diseases such as Lyme disease, West Nile virus, or Zika to new areas. 
+>
+> Rising temperatures may also cause insect pests to expand their range and destroy important crops causing economic strains to the agriculture industry.
+>
+> On the other hand, some important insects, such as bees, silkworms, crickets, and flies that pollinate our plants, fertilize our soil, produce useful substances (such as honey, wax, and silk), and serve as important food sources for many animals including humans, may go extinct when exposed to sudden fatal high temperatures. 
+> 
+> In my project, we used fruit flies with known differences in their DNA sequence (also called different fly lines) as models to determine which regions in their genome affect their tolerance and response to high temperatures. By observing the time it takes for the flies to pass out at different temperatures, we could differentiate between flies that are able to acclimate and flies that are less likely to survive. 
+> 
+> Using this data, we can compare the stability of proteins in the different fly lines. Proteins are essential components to maintain proper structure and function for life. When proteins are exposed to extreme heat, they can denature and lose their function, thus causing death.
+> 
+> We expected the flies who acclimated better to high temperatures to have more stable proteins as well as higher protein expression levels. 
+> 
+> We found that _______
+> 
+> Using this information, we could potentially predict which insects will survive and adapt to the rapid climate change, which insects will expand their territory, and which insects will die. With these predictions, we can prevent spread of devastating diseases, prepare and manage crops and farms to new pests, as well as prevent extinction of insects essential to our food chain and daily life. 
+
 
 ------
 
