@@ -14,7 +14,7 @@ After obtaining the gene sequences of protists from different supergroups as wel
 
 **Workflow**
 
-[workflow](https://user-images.githubusercontent.com/26017826/42791701-f5c0a0a0-893f-11e8-94db-c74cb4d807ef.png)
+![workflow](https://user-images.githubusercontent.com/26017826/42791701-f5c0a0a0-893f-11e8-94db-c74cb4d807ef.png)
 
 **Data Sheet** 
 
