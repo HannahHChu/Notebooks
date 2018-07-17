@@ -9,6 +9,7 @@ The [tree of life website](http://tolweb.org/Eukaryotes/3) provides a good overv
 We plan to propose a new clade or kingdom that may provide a more inclusive and accurate grouping of protists by producing phylogenetic trees using gene sequences. 
 
 **Hypothesis**
+
 After obtaining the gene sequences of protists from different supergroups as well as the "protists of uncertain placement," we expect to see different or new relationships form between paraphyletic protists. 
 
 **Workflow**
@@ -16,3 +17,13 @@ After obtaining the gene sequences of protists from different supergroups as wel
 [workflow](https://user-images.githubusercontent.com/26017826/42791701-f5c0a0a0-893f-11e8-94db-c74cb4d807ef.png)
 
 **Data Sheet** 
+
+On [Github](https://github.com/HannahHChu/Notebooks/blob/master/Protists/protists_datasheet.csv)
+
+**Need to complete as of 2018-07-16**
+
+* Align sequences on CIPRES
+* Generate trees based on genes
+* Use R to see whether there are differences in gene trees
+* If there are differences, what are they? Are they relevant? Do they tell us anything new?
+* Next step: concatenated gene sequences
