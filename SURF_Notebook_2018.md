@@ -51,13 +51,13 @@
 * [Page 36: 2018-07-05 ](#id-section36).  Paper: Adaptation of Enzymes to Temperature (Somero 1968)
 * [Page 37: 2018-07-06 -- 2018-07-10  ](#id-section37).  Thermal Assays Cohorts 1-5
 * [Page 38: 2018-07-11 ](#id-section38). Plan for the rest of this week
-* [Page 39:  ](#id-section39).
-* [Page 40:  ](#id-section40).
-* [Page 41:  ](#id-section41).
-* [Page 42:  ](#id-section42).
-* [Page 43:  ](#id-section43).
-* [Page 44:  ](#id-section44).
-* [Page 45:  ](#id-section45).
+* [Page 39: 2018-07-12 ](#id-section39). Thermal Assay Cohort 6 - Statistical approaches
+* [Page 40: 2018-07-13 -- 2018-07-15 ](#id-section40). Thermal Assay Cohort 7-8
+* [Page 41: 2018-07-13 ](#id-section41). YT Video Script draft 1
+* [Page 42: 2018-07-15 ](#id-section42). YT video script draft 2
+* [Page 43: 2018-07-16 -- 2018-07-17  ](#id-section43). Cohort 8-10
+* [Page 44: 2018-07-18 ](#id-section44). Protist Project Upd
+* [Page 45: 2018-07-18 ](#id-section45). Script draft 3
 * [Page 46:  ](#id-section46).
 * [Page 47:  ](#id-section47).
 * [Page 48:  ](#id-section48).
@@ -1905,19 +1905,69 @@ Notes from Andrew:
 
 <div id='id-section43'/>
 
-### Page 43:
+### Page 43: 2018-07-16 -- 2018-07-17 Cohort 8-10
+
+Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Data/2018-07-01_HS_datasheet.csv)
 
 ------
 
 <div id='id-section44'/>
 
-### Page 44:
+### Page 44: 2018-07-18 Protist Project Upd
+
+* Align sequence using Geneious
+* Trimmed the ends after alignment - save as fasta file
+* Upload data into CIPRES
+* Run jModeltest for nucleotide substitution rate
+* Use result from jModeltest in GARLI for tree
 
 ------
 
 <div id='id-section45'/>
 
-### Page 45:
+### Page 45: 2018-07-18 Script draft 3
+
+> Hi, I’m Hannah,
+> I’m from John Jay College of Criminal Justice in NYC.
+> This summer, as part of the University of Florida’s Summer Undergraduate Research at
+> Florida program, I was able to study how insects respond to extreme temperatures on a
+> behavioral and molecular level in Dr. Daniel Hahn’s lab in the Dept. of Entomology and
+> Nematology.
+> Climate change poses a major threat to cold-blooded insects. Insects are expected to cope
+> with the gradual and rapid temperature increases brought on my climate change. 
+> 
+> There are three ways these insects can respond:
+> 
+> They can either die,
+> 
+> Adapt over generations
+> 
+> Or acclimate individually
+> 
+> These responses ultimately determine population maintenance, meaning if the insects die 
+> off, populations can decline, or if the insects acclimate or adapt to new higher 
+> temperatures, the population can stay the same or grow. 
+> 
+> Because it is difficult to measure population maintenance in nature, determining how 
+> organisms cope with hear stress may be a good alternative for understanding how 
+> populations may change in response to climate change. 
+> 
+> We measured how fruit flies cope with gradual and rapid increases in temperature. The fruit flies we tested were genetically bred to represent the worldwide genetic variation.
+> 
+> We found that the fruit flies that are resilient to temperature increase in one respect are 
+> susceptible to temperature increases in the other. For example, the flies that were able to 
+> cope well with a gradual increase in temperature, coped poorly with a rapid increase in 
+> temperature. 
+> 
+> We also found that male flies were more resilient to temperature increases compared to
+> female flies. Since females are limits to reproduction, their susceptibility to high
+> temperatures suggest that population growth will slow down or decline in the face of
+> climate change.
+> 
+> Further goals of this research aim to determine the protein unfolding patterns of flies that
+> coped well with temperature increases. By understanding these patterns we can potentially
+> predict which insects will survive and adapt to the rapid climate change.
+
 
 ------
 

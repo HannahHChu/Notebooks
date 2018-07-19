@@ -27,3 +27,6 @@ On [Github](https://github.com/HannahHChu/Notebooks/blob/master/Protists/protist
 * Use R to see whether there are differences in gene trees
 * If there are differences, what are they? Are they relevant? Do they tell us anything new?
 * Next step: concatenated gene sequences
+
+
+
