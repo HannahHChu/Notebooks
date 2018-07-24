@@ -58,9 +58,9 @@
 * [Page 43: 2018-07-16 -- 2018-07-17  ](#id-section43). Cohort 8-10
 * [Page 44: 2018-07-18 ](#id-section44). Protist Project Upd
 * [Page 45: 2018-07-18 ](#id-section45). Script draft 3
-* [Page 46:  ](#id-section46).
-* [Page 47:  ](#id-section47).
-* [Page 48:  ](#id-section48).
+* [Page 46: 2018-07-19 ](#id-section46).  Protein Quantification
+* [Page 47: 2018-07-20 ](#id-section47). Protein Homogenization Comparison
+* [Page 48: 2018-07-23 ](#id-section48). Protein Unfolding
 * [Page 49:  ](#id-section49).
 * [Page 50:  ](#id-section50).
 * [Page 51:  ](#id-section51).
@@ -1973,19 +1973,39 @@ Data uploaded onto [Github](https://raw.githubusercontent.com/HannahHChu/Proteom
 
 <div id='id-section46'/>
 
-### Page 46:
+### Page 46: 2018-07-19 Protein Quantification
+
+For one BCA reaction 
+
+| Standard conc. (ug/uL) | Albumin (uL) | H2O (uL) |
+| ---------------------  | ------------ | -------- |
+|   2				     | 25           | 0        | 
+|   1				     | 12.5         | 12.5     | 
+|   0.5				     | 6.25         | 18.75    | 
+|   0.25			     | 3.125        | 21.875   |
+|   0				     | 0            | 25       |
+
+1) In microplate: 25uL sample + 200uL of WR
+2) 30 min incubation at 37ºC
+3) Cool to room temp and measure at 562nm
+
 
 ------
 
 <div id='id-section47'/>
 
-### Page 47:
+### Page 47: 2018-07-20 Protein Homogenization comparison
+
+Results on [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Script/2018-07-15_data_analysis.Rmd)
+
 
 ------
 
 <div id='id-section48'/>
 
-### Page 48:
+### Page 48: 2018-07-23 Protein Unfolding Preliminary
+
+Results on [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Script/2018-07-15_data_analysis.Rmd)
 
 ------
 
