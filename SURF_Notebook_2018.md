@@ -1996,7 +1996,7 @@ For one BCA reaction
 
 ### Page 47: 2018-07-20 Protein Homogenization comparison
 
-Results on [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Script/2018-07-15_data_analysis.Rmd)
+Results on [Github](https://github.com/HannahHChu/Proteome_stability_project/blob/master/Data/2018-07-20_prelim_homogenizatio_BCA.xlsx)
 
 
 ------
@@ -2005,7 +2005,7 @@ Results on [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stabil
 
 ### Page 48: 2018-07-23 Protein Unfolding Preliminary
 
-Results on [Github](https://raw.githubusercontent.com/HannahHChu/Proteome_stability_project/master/Script/2018-07-15_data_analysis.Rmd)
+Results on [Github](https://github.com/HannahHChu/Proteome_stability_project/blob/master/Data/2018-07-20_prelim_homogenizatio_BCA.xlsx)
 
 ------
 
