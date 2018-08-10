@@ -61,7 +61,7 @@
 * [Page 46: 2018-07-19 ](#id-section46).  Protein Quantification
 * [Page 47: 2018-07-20 ](#id-section47). Protein Homogenization Comparison
 * [Page 48: 2018-07-23  -- 2018-07-30 ](#id-section48). Protein Unfolding
-* [Page 49:  ](#id-section49).
+* [Page 49: 2018-08-10 ](#id-section49). Survivorship Data Analysis Idea
 * [Page 50:  ](#id-section50).
 * [Page 51:  ](#id-section51).
 * [Page 52:  ](#id-section52).
@@ -2011,4 +2011,9 @@ Results on [Github](https://github.com/HannahHChu/Proteome_stability_project/blo
 Protocol found on [Hahn Lab Protocols](https://adnguyen.github.io/Hahn_lab_protocols/2018-07-30_HC_protein_quantitation.html)
 
 ------
+<div id='id-section50'/>
+
+### Page 50: 2018-08-10 Survivorship Data Analysis Idea
+
+![](https://user-images.githubusercontent.com/26017826/43960713-df3f1380-9c80-11e8-9b25-797cb6a518ed.JPG)
 
